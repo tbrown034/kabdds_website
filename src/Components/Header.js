@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Button, Icon } from "semantic-ui-react";
+import HeaderCallBtn from "./HeaderCallBtn";
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              {/* Header links */}
+              {/* Header links from BOOTSTRAP*/}
               <Nav.Link href="/practice">Our Practice</Nav.Link>
               <Nav.Link href="/financing">Financing</Nav.Link>
               <Nav.Link href="/location">Location</Nav.Link>
@@ -32,7 +33,7 @@ const Header = () => {
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            {/* Header buttons */}
+            {/* Header buttons from SEMANTIC UI*/}
             <Nav>
               <Button animated>
                 <Button.Content circular visible>
@@ -42,13 +43,8 @@ const Header = () => {
                   <Icon name="arrow right" />
                 </Button.Content>
               </Button>
-              <Button animated='vertical'>
-      <Button.Content hidden>Call Us</Button.Content>
-      <Button.Content visible>
-        <Icon name='phone' />
-      </Button.Content>
-    </Button>
-
+              <HeaderCallBtn />
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
