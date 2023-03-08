@@ -30,3 +30,7 @@ p {
   background-color: var(--primary-bg-color);
 
 }
+
+.bg-my-brand {
+  color: red;
+}
