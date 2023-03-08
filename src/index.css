@@ -1,27 +1,32 @@
 /* color and font themes  */
 :root {
   /* color theme  */
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --tertiary-color: #28a745;
+  --primary-color: #002147;
+  --secondary-color: #333333;
+  --tertiary-color: whitesmoke;
   /* background theme  */
-  --primary-bg-color: #aa7171;
-  --secondary-bg-color: #7aad8d;
-  --tertiary-bg-color: #7f7993;
+  --primary-bg-color: #B8D8E6;
+  --secondary-bg-color: #F1F1F1;
+  --tertiary-bg-color: #333333;
   /* font theme  */
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Open Sans', sans-serif;
   --tertiary-font: 'Lato', sans-serif;
 }
 
-
+/* Global  */
 p {
   font-family: var(--primary-font);
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   color: var(--primary-color);
 
 }
 
+
+/* Components  */
+
+/* Header Components  */
 .bg-my-color {
   background-color: var(--primary-bg-color);
+
 }
