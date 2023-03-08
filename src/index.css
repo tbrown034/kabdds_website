@@ -1,17 +1,17 @@
 /* color and font themes  */
 :root {
   /* color theme  */
-  --primary-color: #002147;
+  --primary-color: #6ea4e3;
   --secondary-color: #333333;
   --tertiary-color: whitesmoke;
   /* background theme  */
-  --primary-bg-color: #B8D8E6;
-  --secondary-bg-color: #F1F1F1;
-  --tertiary-bg-color: #333333;
+  --primary-bg-color: #b8d8e6;
+  --secondary-bg-color: #f1f1f1;
+  --tertiary-bg-color: #1f1844;
   /* font theme  */
-  --primary-font: 'Roboto', sans-serif;
-  --secondary-font: 'Open Sans', sans-serif;
-  --tertiary-font: 'Lato', sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+  --tertiary-font: "Lato", sans-serif;
 }
 
 /* Global  */
@@ -19,30 +19,29 @@ p {
   font-family: var(--primary-font);
   background-color: var(--secondary-bg-color);
   color: var(--primary-color);
-
 }
-
 
 /* Components  */
-
-/* Header Components  */
+  /* Header Components  */
 .bg-my-color {
-  background-color: var(--primary-bg-color);
-
+  background-color: var(--tertiary-bg-color);
 }
+/* To change Link color or size --> */
+    /* .navbar .myNavLinks .nav-link {
+        font-size: 33px;
+        color: var(--primary-color);
+        } */
 
-.bg-my-brand {
-  color: red;
-}
+/* To change brand (after applying bsPrefix) -->     *
+  /* .myBrand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 22px;
+        white-space: nowrap;
+        color: rgb(235, 217, 217);
+        text-decoration: none;
+      } */
 
-.myBrand {
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 22px;
-  white-space: nowrap;
-  color: black;
-  text-decoration: none;
-  color: var(--primary-color);
-}
+

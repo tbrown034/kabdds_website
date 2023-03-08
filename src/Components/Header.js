@@ -8,17 +8,19 @@ import HeaderCallBtn from "./HeaderCallBtn";
 const Header = () => {
   return (
     <>
-       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+     {/* Nav from React Bootstrap */}
+       <Navbar collapseOnSelect expand="md" bg="my-color" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Keith Brown, D.D.S.</Navbar.Brand>
+        {/* bsPrefix="byBrand" below to change Brand */}
+        <Navbar.Brand href="/">Keith Brown, D.D.S.</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#features">About Us</Nav.Link>
-            <Nav.Link href="#pricing">Financing</Nav.Link>
-            <Nav.Link href="#pricing">Location</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-            <Nav.Link href="#pricing">FAQs</Nav.Link>
+          <Nav className="me-auto myNavLinks">
+            <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/financing">Financing</Nav.Link>
+            <Nav.Link href="/location">Location</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/faqs">FAQs</Nav.Link>
             <NavDropdown title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">General Dentistry</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -34,6 +36,7 @@ const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          {/* Buttons from Sematnic UI  */}
           <Nav>
           <Button animated>
                 <Button.Content circular visible>
