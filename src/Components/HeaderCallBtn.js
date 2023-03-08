@@ -16,7 +16,7 @@ const HeaderCallBtn = () => {
 
     
 
-<Button onClick={handleClick} animated="vertical">
+<Button id="apptBtn" onClick={handleClick} animated="vertical">
                 <Button.Content hidden>Call Us</Button.Content>
                 <Button.Content visible>
                   <Icon name="phone" />

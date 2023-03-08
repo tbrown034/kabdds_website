@@ -7,7 +7,7 @@
   /* background theme  */
   --primary-bg-color: #b8d8e6;
   --secondary-bg-color: #f1f1f1;
-  --tertiary-bg-color: #1f1844;
+  --tertiary-bg-color: #4c86c5;
   /* font theme  */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
@@ -21,11 +21,16 @@ p {
   color: var(--primary-color);
 }
 
+
+
 /* Components  */
   /* Header Components  */
 .bg-my-color {
   background-color: var(--tertiary-bg-color);
 }
+
+
+
 /* To change Link color or size --> */
     /* .navbar .myNavLinks .nav-link {
         font-size: 33px;
@@ -45,3 +50,10 @@ p {
       } */
 
 
+
+
+      @media (max-width: 767px) {
+        #apptBtn {
+          margin-bottom: 10px;
+        }
+      }
