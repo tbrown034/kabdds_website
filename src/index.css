@@ -34,3 +34,15 @@ p {
 .bg-my-brand {
   color: red;
 }
+
+.myBrand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 22px;
+  white-space: nowrap;
+  color: black;
+  text-decoration: none;
+  color: var(--primary-color);
+}
