@@ -3,7 +3,7 @@ import { Button, Icon } from "semantic-ui-react";
 
 
 
-const HeroCallBtn = () => {
+const CallBtn = () => {
   const handleClick = () => {
     const confirmed = window.confirm('Are you sure you want to call?');
     if (confirmed) {
@@ -16,8 +16,8 @@ const HeroCallBtn = () => {
 
 
 <Button id="apptBtn" onClick={handleClick} animated="vertical">
-                <Button.Content visible> <Icon name="phone" /> Call Us Now</Button.Content>
-                <Button.Content hidden>
+                <Button.Content hidden>Call Us</Button.Content>
+                <Button.Content visible>
                   <Icon name="phone" />
                 </Button.Content>
               </Button>
@@ -25,4 +25,4 @@ const HeroCallBtn = () => {
   );
 };
 
-export default HeroCallBtn;
+export default CallBtn;

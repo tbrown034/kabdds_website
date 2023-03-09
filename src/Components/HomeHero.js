@@ -2,8 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import dentist from "../Images/dentist.jpeg";
 import { Button, Icon } from "semantic-ui-react";
-
-import HeroCallBtn from './HeroCallBtn';
+import CallBtn from './CallBtn';
 
 const HomeHero = () => {
     return (
@@ -13,7 +12,7 @@ const HomeHero = () => {
       <Card.ImgOverlay>
         <Card.Title className="heroTitle">Let us brighten your smile.</Card.Title>
         <Card.Text>
-          We offer a wide range of dental services to keep your smile healthy and bright.
+        Dr. Keith A. Brown has been serving Napeville and the Chicagoland area for more than 40 years. Schedule a cleaning or appointment today!
         </Card.Text>
         <div className="btnGroup">
         <Button animated id="apptBtn">
@@ -24,7 +23,7 @@ const HomeHero = () => {
                   <Icon name="arrow right" />
                 </Button.Content>
               </Button>
-              <HeroCallBtn />
+              <CallBtn />
               </div>
       </Card.ImgOverlay>
     </Card>

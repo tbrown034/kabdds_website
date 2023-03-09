@@ -1,13 +1,13 @@
 /* color and font themes  */
 :root {
   /* color theme  */
-  --primary-color: #6ea4e3;
-  --secondary-color: #333333;
-  --tertiary-color: whitesmoke;
+  --primary-color: #1E1E1E;
+  --secondary-color: #5B5B5B ;
+  --tertiary-color: #E7F6E7 ;
   /* background theme  */
-  --primary-bg-color: #b8d8e6;
-  --secondary-bg-color: #f1f1f1;
-  --tertiary-bg-color: #4c86c5;
+  --primary-bg-color:  #E7F6E7;
+  --secondary-bg-color: #F0FFF4;
+  --tertiary-bg-color: #5C6B73  ;
   /* font theme  */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
@@ -15,18 +15,14 @@
 }
 
 /* Global  */
-p {
-  font-family: var(--primary-font);
-  background-color: var(--secondary-bg-color);
-  color: var(--primary-color);
-}
+
 
 
 
 /* Components  */
   /* Header Components  */
 .bg-my-color {
-  background-color: var(--tertiary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 
@@ -74,13 +70,13 @@ p {
 
 .card-title {
   font-size: 40px !important;
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   text-emphasis: bold;
 }
 
 .card-text {
   font-size: 20px;
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   background-color: transparent;
 }
 
@@ -89,10 +85,78 @@ p {
   padding-bottom: 20px;
 }
 
+/* HeroBanner */
+
+.myHeroBanner {
+    background-color: var(--primary-bg-color);
+
+}
+
+.segmentContainer {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
+
+.heroSegment {
+  color: var(--primary-color);
+  background-color: var(--primary-bg-color) !important;
+  text-align: center;
+  margin-top: 0 !important;
+  margin-bottom:0 !important;
 
 
 
-      @media (max-width: 767px) {
+}
+
+#segmentGroup {
+  color: whitesmoke;
+  background-color: #708a99;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#segment {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Footer  */
+.footerApptBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  background-color: var(--tertiary-bg-color);
+  color: var(--tertiary-color);
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+
+
+
+
+}
+
+.myFooter {
+  background-color: var(--primary-bg-color);
+  
+
+}
+
+
+/* Media Query  */
+@media (max-width: 767px) {
         #apptBtn {
           margin-bottom: 10px;
         }

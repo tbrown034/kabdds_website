@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
      {/* Nav from React Bootstrap */}
-       <Navbar collapseOnSelect expand="md" bg="my-color" variant="dark">
+       <Navbar collapseOnSelect expand="md" bg="my-color" variant="light">
       <Container>
         {/* bsPrefix="byBrand" below to change Brand */}
         <Navbar.Brand href="/">Keith Brown, D.D.S.</Navbar.Brand>
