@@ -30,8 +30,7 @@ const HeroBanner = () => {
   ];
 
   return (
-    <div className ="myHeroBanner">
-    <Container fluid="md" className="segmentContainer" >
+    
     <Segment.Group  className="heroSegment" horizontal>
       {data.map((item) => (
         <Segment  key={item.id}>
@@ -51,8 +50,7 @@ const HeroBanner = () => {
         </Segment>
       ))}
     </Segment.Group>
-    </Container>
-    </div>
+
 
   );
 };
