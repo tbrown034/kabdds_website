@@ -116,11 +116,9 @@
 
 }
 
-.reviewImage {
-  padding-top: 20px;
-}
 
-.imageCol {
+
+.Col {
   display: flex;
   align-items: center;
   padding-top: 5px;
@@ -133,31 +131,36 @@
   padding-bottom: 20px;
 }
 
-.reviewContainer {
-  background-color: var(--primary-bg-color);
-  padding-top: 20px;
-}
 
 
 
 
 .reviewBackground {
-  min-height: 340px;
+  min-height: 400px;
   background-color: var(--primary-bg-color);
 }
 
+
 .reviewText {
   color: var(--secondary-color);
+  font-size: 24px;
+  padding-bottom: 22px;
 
 }
 
 .reviewName {
   color: var(--primary-color);
+  padding-bottom: 6px;
 }
 
 
 .reviewCity {
   color: var(--primary-color);
+}
+
+.reviewStars {
+  padding-bottom: 200px !important;
+
 }
 
 

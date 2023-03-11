@@ -7,14 +7,12 @@ const ReviewPackage = () => {
     <>
     <div className="reviewPackageContainer">
       <Container  fluid>
-        <Row >
-          <Col md={6} className="p-0">
+        <Row className="align-items-center">
+          <Col id="col1" md={6} className="p-0">
             <ReviewSlider />
           </Col>
-          <Col  className="imageCol" md={6}>
-            
-            <Image fluid thumbnail className="reviewImage" src={smile}  />
-            
+          <Col id="col1" md={6}>
+            <Image fluid className="reviewImage" src={smile}  />
           </Col>
         </Row>
       </Container>

@@ -1,5 +1,5 @@
 import { Segment, Icon, Button } from "semantic-ui-react";
-import Container from 'react-bootstrap/Container';
+
 
 const HeroBanner = () => {
   const data = [
