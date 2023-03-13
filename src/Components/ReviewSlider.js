@@ -8,7 +8,26 @@ const ReviewSlider = () => {
 
       <Carousel variant="dark" fade>
       <Carousel.Item className="reviewBackground">
-          <Carousel.Caption>
+        <div className="reviewHolder">
+        <p className="reviewText">
+              <Icon name="quote left" size="big" />
+              Dr. Brown made me a total new set of dentures that attaches to
+              mini implants. Now, I can eat sandwiches, grilled meats, BBQ ribs,
+              steaks, and all kinds of hard foods. If you are having problems
+              with your dentures, I would recommended Dr. Keith Brown to anyone.
+              <Icon name="quote right" size="big" />
+            </p>
+            <h3 className="reviewName">- Mattie P W.</h3>
+            <h4 className="reviewCity">Bolingbrook, IL</h4>
+            <Rating icon="star" defaultRating={4} maxRating={5} />
+
+        </div>
+          
+          
+          
+        </Carousel.Item>
+      <Carousel.Item className="reviewBackground">
+      <div className="reviewHolder">
             <p className="reviewText">
               <Icon name="quote left" size="big" />I have been receiving dental
               care from Dr. Brown for 17 years. I truly believe he is the best
@@ -19,11 +38,11 @@ const ReviewSlider = () => {
             <h3 className="reviewName">- Mike L.</h3>
             <h4 className="reviewCity">Naperville, IL</h4>
             <Rating icon="star" defaultRating={5} maxRating={5} />
-          </Carousel.Caption>
+          </div>
         </Carousel.Item>
         
         <Carousel.Item className="reviewBackground">
-          <Carousel.Caption>
+        <div className="reviewHolder">
             <p className="reviewText">
               <Icon name="quote left" size="big" />I initially came here with a
               dental crisis and needed an emergency appointment. It's out of
@@ -35,23 +54,9 @@ const ReviewSlider = () => {
             <h3 className="reviewName">- Mike C.</h3>
             <h4 className="reviewCity">Markham, IL</h4>
             <Rating icon="star" defaultRating={5} maxRating={5} />
-          </Carousel.Caption>
+          </div>
         </Carousel.Item>
-        <Carousel.Item className="reviewBackground">
-          <Carousel.Caption>
-            <p className="reviewText">
-              <Icon name="quote left" size="big" />
-              Dr. Brown made me a total new set of dentures that attaches to
-              mini implants. Now, I can eat sandwiches, grilled meats, BBQ ribs,
-              steaks, and all kinds of hard foods. If you are having problems
-              with your dentures, I would recommended Dr. Keith Brown to anyone.
-              <Icon name="quote right" size="big" />
-            </p>
-            <h3 className="reviewName">- Mattie P W.</h3>
-            <h4 className="reviewCity">Bolingbrook, IL</h4>
-            <Rating icon="star" defaultRating={4} maxRating={5} />
-          </Carousel.Caption>
-        </Carousel.Item>
+     
       </Carousel>
     </>
   );
