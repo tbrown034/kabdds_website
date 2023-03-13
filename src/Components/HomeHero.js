@@ -9,7 +9,7 @@ const HomeHero = () => {
       <>
         <Card className="bg-dark">
       <Card.Img src={dentist} alt="Keith Brown" />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="heroOverlay" >
         <Card.Title className="heroTitle">Let us brighten your smile.</Card.Title>
         <Card.Text>
         Dr. Keith A. Brown has been serving Napeville and the Chicagoland area for more than 40 years. Schedule a cleaning or appointment today!

@@ -4,7 +4,7 @@ import { Icon, Rating } from "semantic-ui-react";
 const ReviewSlider = () => {
   return (
     <>
-      <h2 className="reviewTitle">Here from Our Patients</h2>
+      <h2 className="reviewTitle">Hear from Our Patients</h2>
 
       <Carousel variant="dark" fade>
       <Carousel.Item className="reviewBackground">
