@@ -16,6 +16,10 @@
 
 /* Global  */
 
+H2 {
+  font-size: 40px !important ;
+}
+
 
 
 
@@ -172,7 +176,7 @@
   background-color: var(--tertiary-bg-color);
   color: var(--tertiary-color);
   text-align: center;
-  padding: 20px 10px 20px 10px;
+  padding: 40px 10px 40px 10px;
 
 }
 .cardPhoto {
@@ -214,8 +218,16 @@
 }
 
 
+/* 
+Map  */
 
-
+.mapContainer {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 40px 10px 40px 10px;
+  
+  }
 
 
 
@@ -229,8 +241,8 @@
   align-items: center;
   font-size: 18px;
   text-align: center;
-  background-color: var(--secondary-bg-color);
-  color: var(--primary-color);
+  background-color: var(--tertiary-bg-color);
+  color: var(--tertiary-color);
   padding: 10px 0;
   width: 100%;
   margin: 20px 0 !important;
