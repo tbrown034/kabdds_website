@@ -10,7 +10,15 @@ const HomeHero = () => {
         <Card className="bg-dark">
       <Card.Img src={dentist} alt="Keith Brown" />
       <Card.ImgOverlay className="heroOverlay" >
-        <Card.Title className="heroTitle">Let us brighten your smile.</Card.Title>
+        <Card.Title className="heroTitle">
+                        Let us brighten your{' '}
+                        <span className="curved-underline">
+                            smile
+                            <span className="curve"></span>
+                        </span>
+                    </Card.Title>
+       
+
         <Card.Text>
         Dr. Keith A. Brown has been serving Napeville and the Chicagoland area for more than 40 years. Schedule a cleaning or appointment today!
         </Card.Text>

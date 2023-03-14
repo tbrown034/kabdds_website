@@ -1,4 +1,4 @@
-import { Header, Footer, HomeHero, HeroBanner, ReviewPackage, ServicesBanner, MapPackage } from './Components';
+import { Header, Footer, HomeHero, HeroBanner, ReviewPackage, ServicesBanner, MapPackage, Promotions } from './Components';
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <ReviewPackage/>
       <ServicesBanner/>
       <MapPackage />
+      <Promotions/>
       <Footer />
       
     </div>
