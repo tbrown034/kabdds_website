@@ -23,10 +23,22 @@ H2 {
 
 
 
+
 /* Components  */
   /* Header Components  */
 .bg-my-color {
   background-color: var(--primary-bg-color);
+}
+
+.myHeader .ui.button {
+  background-color: var(--secondary-bg-color);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06), 0 1px 1px 0 rgba(0,0,0,0.07);
+
+}
+
+.myHeader .ui.button:hover {
+  background-color: var(--secondary-bg-color);
+
 }
 
 
@@ -112,6 +124,21 @@ H2 {
   display: flex;
   flex-wrap: wrap;
 }
+
+.mySegment .ui.button {
+  background-color: var(--secondary-bg-color);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06), 0 1px 1px 0 rgba(0,0,0,0.07);
+
+
+}
+
+.mySegment .ui.button:hover {
+  background-color: var(--secondary-bg-color);
+
+}
+
+
+
 
 /* ReviewSlider */
 
@@ -221,13 +248,35 @@ H2 {
 /* 
 Map  */
 
-.mapContainer {
+.myMapPackage {
     background-color: var(--primary-bg-color);
     color: var(--primary-color);
-    text-align: center;
-    padding: 40px 10px 40px 10px;
-  
+    text-align:start;
+    padding: 40px 10px 20px 10px;
+
   }
+
+  .myMapPackage p {
+    font-size: 17px;
+  }
+
+  .mapRows {
+    padding-bottom: 20px;
+  }
+
+  .mapCol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+  }
+
+  .myMapPackage h3 {
+    color: var(--secondary-color);
+
+
+  }
+
 
 
 
@@ -254,6 +303,16 @@ Map  */
   
 
 }
+
+.myFooter h3 {
+  text-decoration: underline;
+}
+
+.myFooter a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 
 
 /* Media Query  */

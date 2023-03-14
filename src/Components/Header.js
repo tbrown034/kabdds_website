@@ -7,7 +7,7 @@ import HeaderCallBtn from "./HeaderCallBtn";
 
 const Header = () => {
   return (
-    <>
+    <div className='myHeader'>
      {/* Nav from React Bootstrap */}
        <Navbar collapseOnSelect expand="md" bg="my-color" variant="light">
       <Container>
@@ -51,7 +51,7 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  </>
+  </div>
   );
 };
 

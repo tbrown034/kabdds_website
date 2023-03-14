@@ -1,4 +1,4 @@
-import { Header, Footer, HomeHero, HeroBanner, ReviewPackage, ServicesBanner, HomeMap } from './Components';
+import { Header, Footer, HomeHero, HeroBanner, ReviewPackage, ServicesBanner, MapPackage } from './Components';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <HeroBanner />
       <ReviewPackage/>
       <ServicesBanner/>
-      <HomeMap />
+      <MapPackage />
       <Footer />
       
     </div>
