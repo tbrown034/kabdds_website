@@ -5,22 +5,29 @@
   --secondary-color: #5B5B5B ;
   --tertiary-color: #E7F6E7 ;
   /* background theme  */
-  --primary-bg-color:  #E7F6E7;
-  --secondary-bg-color: #F0FFF4;
-  --tertiary-bg-color: #5C6B73  ;
+  --primary-bg-color:  #dcf1dc;
+  --secondary-bg-color:  #E7F6E7;
+  --tertiary-bg-color: #8a9ea8  ;
   /* font theme  */
   --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Open Sans", sans-serif;
-  --tertiary-font: "Lato", sans-serif;
+  --secondary-font: 'Merriweather', serif;
+  ;
+  --tertiary-font: font-family: 'Barlow', sans-serif;
+
 }
 
 /* Global  */
 
 H2 {
   font-size: 40px !important ;
+  font-family: 'Rubik', sans-serif !important;
+
 }
 
-
+p {
+  font-family: 'Merriweather', serif;
+  
+}
 
 
 
@@ -32,7 +39,8 @@ H2 {
 
 .myHeader .ui.button {
   background-color: var(--secondary-bg-color);
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06), 0 1px 1px 0 rgba(0,0,0,0.07);
+  border: var(--tertiary-bg-color) solid 1px;
+
 
 }
 
@@ -89,17 +97,28 @@ H2 {
   font-size: 40px !important;
   color: var(--tertiary-color);
   text-emphasis: bold;
+
 }
 
 .card-text {
   font-size: 20px;
   color: var(--tertiary-color);
   background-color: transparent;
+  ;;
+
+  
 }
 
 .btn-primary {
   font-size: 2.5rem;
   padding-bottom: 20px;
+}
+
+.btnGroup  .ui.button {
+  background-color: var(--secondary-bg-color);
+  border: var(--tertiary-bg-color) solid 1px;
+
+
 }
 
 /* HeroBanner */
@@ -127,7 +146,9 @@ H2 {
 
 .mySegment .ui.button {
   background-color: var(--secondary-bg-color);
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06), 0 1px 1px 0 rgba(0,0,0,0.07);
+  border: var(--tertiary-bg-color) solid 1px;
+  
+
 
 
 }
@@ -200,8 +221,8 @@ H2 {
 /* ServiceBanner */
 
 .bannerContainer {
-  background-color: var(--tertiary-bg-color);
-  color: var(--tertiary-color);
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
   text-align: center;
   padding: 40px 10px 40px 10px;
 
@@ -217,7 +238,7 @@ H2 {
 
 
 .backCardPhoto {
-  opacity: .3;
+  filter: brightness(0.);
 
 }
 
@@ -230,7 +251,7 @@ H2 {
   flex-direction: column;
   justify-content: space-evenly;
     padding-left: 7px;
-    color:  #e6d5be;
+    color: var(--tertiary-color);;
 
 }
 
@@ -238,7 +259,7 @@ H2 {
 #serviceLinkHoldr a {
 
   font-size: 25px;
-  color:  #e6d5be;
+  color: var(--tertiary-color);
 
 
   
@@ -249,7 +270,7 @@ H2 {
 Map  */
 
 .myMapPackage {
-    background-color: var(--primary-bg-color);
+    background-color: var(--secondary-bg-color);
     color: var(--primary-color);
     text-align:start;
     padding: 40px 10px 20px 10px;
@@ -272,7 +293,7 @@ Map  */
   }
 
   .myMapPackage h3 {
-    color: var(--secondary-color);
+        color: var(--primary-color);
 
 
   }
@@ -290,12 +311,11 @@ Map  */
   align-items: center;
   font-size: 18px;
   text-align: center;
-  background-color: var(--tertiary-bg-color);
-  color: var(--tertiary-color);
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
   padding: 10px 0;
   width: 100%;
   margin: 20px 0 !important;
-  border: solid 4px var(--secondary-color);
 }
 
 .myFooter {

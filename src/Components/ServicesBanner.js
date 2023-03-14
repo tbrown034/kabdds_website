@@ -11,10 +11,10 @@ function ServicesBanner() {
   return (
     <div className="bannerContainer">
       <h2>Our Services</h2>
-      <p>
+      <h4>
         We provide a range of dental services to take the best care of you and
         your family's dental health for life.
-      </p>
+      </h4>
 
       <CardGroup>
         <Row xl={3} md={3} sm={1} xs={"auto"} className="g-4">
