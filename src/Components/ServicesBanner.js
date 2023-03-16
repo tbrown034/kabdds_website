@@ -10,7 +10,10 @@ import Row from "react-bootstrap/Row";
 function ServicesBanner() {
   return (
     <div className="bannerContainer">
-      <h2>Our Services</h2>
+      <h2><span className="curved-underline">
+                              Our Services
+                            <span className="curve"></span>
+                        </span></h2>
       <h4>
         We provide a range of dental services to take the best care of you and
         your family's dental health for life.

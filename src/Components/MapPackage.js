@@ -17,7 +17,10 @@ const MapPackage = () => {
             <Col className="mapCol" md={5}>
               <Container>
                 <Row className="mapRows">
-                  <h2>Our Convenient Location in the Heart of Naperville</h2>
+                  <h2><span className="curved-underline">
+                  Our Convenient Location in the Heart of Naperville
+                            <span className="curve"></span>
+                        </span></h2>
                   <h4>
                     We have proudly been located on the third floor of the
                     FifthThird bank, located just south of the Edward Hospital

@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import CallBtn from "./CallBtn";
 import { Button, Icon } from "semantic-ui-react";
 
 const Footer = () => {
@@ -15,10 +16,7 @@ const Footer = () => {
       <Container fluid="md">
         <Row>
           <div className="footerApptBox">
-            <h2><span className="curved-underline">
-            Ready for Your Appointment?
-                            <span className="curve"></span>
-                        </span></h2>
+            <h2>Ready for Your Appointment?</h2>
             <h4>
               Give us a call, send us a message or request an appointment today
             </h4>

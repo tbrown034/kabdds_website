@@ -7,7 +7,10 @@ const Promotions = () => {
     <div className="myPromotions">
       <Container fluid>
       <Row>
-        <h2>Our Current 2023 Deals and Promotions</h2>
+        <h2><span className="curved-underline">
+        Our 2023 Deals and Promotions
+                            <span className="curve"></span>
+                        </span></h2>
       </Row>
 
         <Row>
