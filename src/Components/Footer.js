@@ -15,10 +15,11 @@ const Footer = () => {
       <Container fluid="md">
         <Row>
           <div className="footerApptBox">
-            <h2><span className="curved-underline">
-            Ready for Your Appointment?
+          <h2><span className="curved-underline">
+                  Make your Appointment Today
                             <span className="curve"></span>
-                        </span></h2>
+                        </span>
+                        </h2>
             <h4>
               Give us a call, send us a message or request an appointment today
             </h4>

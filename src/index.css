@@ -1,15 +1,15 @@
 /* color and font themes  */
 :root {
   /* color theme  */
-  --primary-color: #1E1E1E;  
-  --secondary-color: #35365a ;
-  --tertiary-color: #E7F6E7 ;
-  --quaternary-color: #6fadd6; /* new color */
+  --primary-color: #494a64;  
+  --secondary-color: #52527a ;
+  --tertiary-color: #ccddcc ;
+  --quaternary-color:  #95c095;
   /* background theme  */
-  --primary-bg-color:  #dcf1dc;
-  --secondary-bg-color:  #E7F6E7;
-  --tertiary-bg-color: #8a9ea8  ;
-  --quaternary-bg-color: #6fadd6; /* new color */
+  --primary-bg-color:    #cedfce;
+  --secondary-bg-color: #a4cba4;
+  --tertiary-bg-color: #c3dcc3  ;
+  --quaternary-bg-color: #a4cba4; /* new color */
 
   /* font theme  */
   --primary-font: "Roboto", sans-serif;
@@ -18,34 +18,13 @@
   --tertiary-font: font-family: 'Barlow', sans-serif;
 
 }
-
 /* Global  */
-
-.underlineHero {
-  padding: 30px 0 8px;
-  position: relative;
-
-}
-
-.underlineHero::before {
-  content: "";
-  position: absolute;
-  left: 7%;
-  bottom: 16px;
-  width: 150px;
-  height: 14px;
-  transform: skew(-12deg) translateX(-50%);
-  background: rgba(238,111,87,0.5);
-  z-index: -1;}
-
-
 
 H2 {
   font-size: 40px !important ;
   font-family: 'Rubik', sans-serif !important;
   color: var(--secondary-color);
   padding-bottom: 5px !important ;
-
 }
 
 H3 {
@@ -56,7 +35,6 @@ H4 {
   font-size:25px !important ;
   font-family: 'Spectral', serif;
   color: #282942;
-
 }
 
 H5 {
@@ -69,12 +47,9 @@ p {
   
 }
 
-/* Button on !important */
 .ui.button {
   background-color: var(--secondary-bg-color) !important;
-  border: var(--tertiary-bg-color) solid 1px !important;
-
-
+  border: var(--quaternary-bg-color) solid 1px !important;
 }
 
 .curved-underline {
@@ -95,20 +70,7 @@ p {
 }
 
 
-.heroTitle .curved-underline {
-  position: relative;
-  color: var(--quaternary-color);
-}
-.heroTitle .curve {
-  position: absolute;
-  bottom: -6px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 100%;
-  background-color:  var(--quaternary-bg-color);
-  border-radius: 0 0 80% 80% / 0 0 100% 100%;
-}
+
 
 
 
@@ -153,7 +115,6 @@ p {
 /* Home Hero Section */
 
 
-
 .card-img {
   object-fit: cover;
   height: 66vh;
@@ -167,32 +128,46 @@ p {
 
 }
 
-/* Hero Header  */
 .card-title {
-  font-size: 50px !important;
+  font-size: 60px !important;
   color: var(--tertiary-color);
   text-emphasis: bold;
 
 }
 
-/* Hero Subhead */
+
 .card-text {
   font-size: 25px;
   color: var(--tertiary-color);
   padding: 0px 15px 0px 15px;
   ;;
-
-  
 }
-
-
 
 .btnGroup  {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
+
+
+.heroTitle .curved-underline {
+  position: relative;
+  color: var(--quaternary-color);
+}
+.heroTitle .curve {
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100%;
+  background-color:  var(--quaternary-bg-color);
+  border-radius: 0 0 80% 80% / 0 0 100% 100%;
+}
+
+
+
 
 /* HeroBanner */
 
@@ -230,6 +205,8 @@ p {
   background-color: var(--secondary-bg-color);
 
 }
+
+
 
 
 
@@ -322,7 +299,7 @@ p {
   transform: translateX(-50%);
   height: 4px;
   width: 100%;
-  background-color: var(--tertiary-bg-color);
+  background-color: var(--secondary-bg-color);
   border-radius: 0 0 80% 80% / 0 0 100% 100%;
 }
 .cardPhoto {

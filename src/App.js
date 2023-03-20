@@ -9,7 +9,7 @@ const App = () => {
       <ReviewPackage/>
       <ServicesBanner/>
       <MapPackage />
-      <Promotions/>
+      {/* <Promotions/> */}
       <Footer />
       
     </div>

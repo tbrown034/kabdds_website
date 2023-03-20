@@ -13,7 +13,7 @@ const HomeHero = () => {
           <Card.Title className="heroTitle">
             Let us brighten your{" "}
             <span className="curved-underline">
-              smile
+              smile.
               <span className="curve"></span>
             </span>
           </Card.Title>
