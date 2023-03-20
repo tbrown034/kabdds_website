@@ -6,7 +6,7 @@ import CallBtn from "./CallBtn";
 
 const HomeHero = () => {
   return (
-    <>
+    <div className="myHomeHero">
       <Card className="bg-dark">
         <Card.Img src={dentist} alt="Keith Brown" />
         <Card.ImgOverlay className="heroOverlay">
@@ -19,8 +19,9 @@ const HomeHero = () => {
           </Card.Title>
 
           <Card.Text>
-            Dr. Keith A. Brown, D.D.S., F.A.G.D., has been serving Napeville and
-            the Chicagoland area for more than 40 years Schedule a cleaning or
+          
+            Dr. Keith A. Brown, D.D.S., F.A.G.D., has been serving Naperville and
+            the Chicagoland area for more than 40 years. Schedule a cleaning or
             appointment today!
           </Card.Text>
           <div className="btnGroup">
@@ -36,7 +37,7 @@ const HomeHero = () => {
           </div>
         </Card.ImgOverlay>
       </Card>
-    </>
+      </div>
   );
 };
 

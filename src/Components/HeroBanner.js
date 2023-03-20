@@ -30,7 +30,6 @@ const HeroBanner = () => {
   ];
 
   return (
-    <div className="mySegment">
     <Segment.Group  className="heroSegment" horizontal>
       {data.map((item) => (
         <Segment  key={item.id}>
@@ -50,7 +49,6 @@ const HeroBanner = () => {
         </Segment>
       ))}
     </Segment.Group>
-    </div>
 
   );
 };

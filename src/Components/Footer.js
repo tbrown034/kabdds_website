@@ -15,14 +15,13 @@ const Footer = () => {
       <Container fluid="md">
         <Row>
           <div className="footerApptBox">
-          <h2><span className="curved-underline">
+          <div className="myH1">
                   Make your Appointment Today
-                            <span className="curve"></span>
-                        </span>
-                        </h2>
-            <h4>
-              Give us a call, send us a message or request an appointment today
-            </h4>
+                            
+                        </div>
+            <div className="myH2">
+              Give us a call, send us a message or request an appointment today!
+            </div>
             <div className="btnGroup">
               <Button animated id="apptBtn">
                 <Button.Content visible>
@@ -116,8 +115,9 @@ const Footer = () => {
             </p>{" "}
           </Col>
         </Row>
-        <div className="copyright">© 2023 Keith Brown D.D.S.</div>
+       
       </Container>
+      <div className="copyright">© 2023 Keith Brown D.D.S.</div>
     </div>
   );
 };

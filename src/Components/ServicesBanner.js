@@ -10,14 +10,12 @@ import Row from "react-bootstrap/Row";
 function ServicesBanner() {
   return (
     <div className="bannerContainer">
-     <h2 > <span className="curved-underline">
-     Our Services
-                            <span className="curve"></span>
-                        </span></h2>
-      <h4>
+     <div className="myH1">A Full Service Dentist Office</div>
+   
+      <div className="myH2">
         We provide a range of dental services to take the best care of you and
-        your family's dental health for life.
-      </h4>
+        your family's dental health for life. Whether it's your child's first cleaning or an emergnecy procedure, we got you covered.
+      </div>
 
       <CardGroup>
         <Row xl={3} md={3} sm={1} xs={"auto"} className="g-4">
@@ -27,7 +25,7 @@ function ServicesBanner() {
                 <Reveal.Content visible>
                   <Card.Img variant="top" className="cardPhoto" src={brush} />
                   <Card.ImgOverlay className="cardOverlay">
-                    <Card.Title className="cardTitle">
+                    <Card.Title className="serviceTitle">
                       General Dentristry
                     </Card.Title>
                   </Card.ImgOverlay>
@@ -60,7 +58,7 @@ function ServicesBanner() {
                     src={invialign}
                   />
                   <Card.ImgOverlay>
-                    <Card.Title className="cardTitle">
+                    <Card.Title  className="serviceTitle">
                       Cosmetic Dentristry
                     </Card.Title>
                   </Card.ImgOverlay>
@@ -89,7 +87,7 @@ function ServicesBanner() {
                 <Reveal.Content visible>
                   <Card.Img className="cardPhoto" variant="top" src={chair} />
                   <Card.ImgOverlay>
-                    <Card.Title className="cardTitle">
+                    <Card.Title  className="serviceTitle">
                       Surgical Dentristry
                     </Card.Title>
                   </Card.ImgOverlay>
