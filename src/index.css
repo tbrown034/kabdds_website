@@ -186,6 +186,10 @@ button.ui.button:hover {
   padding-bottom: 14px;
 }
 
+.reviewText {
+  font-size: 20px;
+}
+
 .reviewHolder {
   padding: 4px 30px 30px 30px;
   text-align: center;
