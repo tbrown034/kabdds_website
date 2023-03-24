@@ -13,8 +13,8 @@ const Footer = () => {
   return (
     <div className="myFooter">
       <Container fluid="md">
-        <Row>
-          <div className="footerApptBox">
+        <Row className="footerApptBox">
+        
           <div className="myH1">
                   Make your Appointment Today
                             
@@ -22,8 +22,8 @@ const Footer = () => {
             <div className="myH2">
               Give us a call, send us a message or request an appointment today!
             </div>
-            <div className="btnGroup">
-              <Button animated id="apptBtn">
+            <div className="threeBtnGroup">
+              <Button animated >
                 <Button.Content visible>
                   <Icon name="calendar" /> Request an Appointment Online
                 </Button.Content>
@@ -39,7 +39,7 @@ const Footer = () => {
                   <Icon name="phone" /> Call us
                 </Button.Content>
               </Button>
-              <Button animated id="apptBtn">
+              <Button animated >
                 <Button.Content visible>
                   <Icon name="mail" /> Send us a Message
                 </Button.Content>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </Button.Content>
               </Button>
             </div>
-          </div>
+        
         </Row>
         <Row>
           <Col>

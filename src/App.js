@@ -1,4 +1,4 @@
-import { Header, Footer, HomeHero, HeroBanner, ReviewPackage, ServicesBanner, MapPackage, Promotions } from './Components';
+import { Header, Footer, HomeHero, HeroBanner, ReviewPackage, ServicesBanner, MapPackage } from './Components';
 
 const App = () => {
   return (
