@@ -8,3 +8,7 @@ export { default as ReviewPackage } from "./HomePage/ReviewPackage"
 export { default as ServicesBanner } from "./HomePage/ServicesBanner"
 export { default as Map } from "./Map"
 export { default as MapPackage } from "./HomePage/MapPackage"
+export { default as About } from "./Pages/About"
+export { default as Home } from "./HomePage/Home"
+
+
