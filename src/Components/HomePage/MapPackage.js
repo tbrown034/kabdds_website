@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Map from "./Map";
+import Map from "../Map";
 import { Button, Icon } from "semantic-ui-react";
-import CopyAddress from "./CopyAddress";
+import CopyAddress from "../Buttons/CopyAddress";
 
 const myAddress = "1296 Rickert Dr #300, Naperville, IL 60540";
 

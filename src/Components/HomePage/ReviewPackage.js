@@ -1,6 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import ReviewSlider from "./ReviewSlider";
-import smile from "../Images/smile3.webp"
+import smile from "../../Images/smile3.webp"
 
 const ReviewPackage = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import dentist from "../Images/dentist.jpeg";
+import dentist from "../../Images/dentist.jpeg";
 import { Button, Icon } from "semantic-ui-react";
-import CallBtn from "./CallBtn";
+import CallBtn from "../Buttons/CallBtn";
 
 const HomeHero = () => {
   return (

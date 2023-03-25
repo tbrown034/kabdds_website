@@ -1,9 +1,9 @@
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import brush from "../Images/toothbrush.jpeg";
+import brush from "../../Images/toothbrush.jpeg";
 import { Reveal } from "semantic-ui-react";
-import invialign from "../Images/invisalign.jpeg";
-import chair from "../Images/officechair.jpeg";
+import invialign from "../../Images/invisalign.jpeg";
+import chair from "../../Images/officechair.jpeg";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
