@@ -39,7 +39,7 @@ const Header = () => {
           {/* Buttons from Sematnic UI  */}
           <Nav>
           <Button className="myButton" animated id="apptBtn">
-                <Button.Content circular visible>
+                <Button.Content  visible>
                   <Icon name="calendar" /> Make an Appointment
                 </Button.Content>
                 <Button.Content hidden>
