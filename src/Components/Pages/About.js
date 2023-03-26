@@ -1,30 +1,33 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import dentist from "../../Images/dentist.jpeg";
+import  HeroBanner from "../HeroBanner";
+import keith from "../../Images/practice.jpeg";
+
+
 
 const About = () => {
   return (
-    <div className="myHomeHero">
+    <div className="myAbout">
       <Card className="bg-dark">
-        <Card.Img src={dentist} alt="Keith Brown" />
+        <Card.Img src={keith} alt="Keith Brown" />
         <Card.ImgOverlay className="heroOverlay">
           <Card.Title className="heroTitle">
-            Let us brighten your{" "}
+            Meet Your Next {" "}
             <span className="curved-underline">
-              About Us.
+              Dentist.
               <span className="curve"></span>
             </span>
           </Card.Title>
 
           <Card.Text>
           
-            Dr. Keith A. Brown, D.D.S., F.A.G.D., has been serving Naperville and
-            the Chicagoland area for more than 40 years. Schedule a cleaning or
-            appointment today!
+          Dr. Keith A. Brown, D.D.S., F.A.G.D, has been practicing dentristry in Naperville for more than 40 years.
+
           </Card.Text>
 
         </Card.ImgOverlay>
       </Card>
+      <HeroBanner />
       </div>
   );
 };

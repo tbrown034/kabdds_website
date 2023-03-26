@@ -1,27 +1,27 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import  HeroBanner from "../HeroBanner";
-import bank from "../../Images/bank.jpeg";
+import smile from "../../Images/smile.jpeg";
 
 
 
-const Location = () => {
+const FAQS = () => {
   return (
-    <div className="myLocation">
+    <div className="myFinancing">
       <Card className="bg-dark">
-        <Card.Img src={bank} alt="Keith Brown" />
+        <Card.Img src={smile} alt="insurance" />
         <Card.ImgOverlay className="heroOverlay">
           <Card.Title className="heroTitle">
-            Conveiently Located in {" "}
+           Frequently Asked  {" "}
             <span className="curved-underline">
-              Naperville.
+            Questions.
               <span className="curve"></span>
             </span>
           </Card.Title>
 
           <Card.Text>
           
-          Located in the thrid floor of the Fifth Third Bank at 75th St. and Rickert Drive
+          We promise to give you the most affordable dental care we can offer. We can also assist you in finding a financing program tailored to your needs and budget.
 
 
           </Card.Text>
@@ -33,4 +33,4 @@ const Location = () => {
   );
 };
 
-export default Location;
+export default FAQS;

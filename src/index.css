@@ -102,10 +102,17 @@ button.ui.button:hover {
 /* Home Hero Section */
 
 
+.myHomeHero .card-img {
+  object-fit: cover;
+  height: 60vh;
+  filter: brightness(50%);
+}
+
 .card-img {
   object-fit: cover;
-  height: 66vh;
+  height: 53vh;
   filter: brightness(50%);
+  object-position: center 43%;
 }
 
 .heroOverlay {

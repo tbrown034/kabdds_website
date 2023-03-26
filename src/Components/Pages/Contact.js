@@ -1,26 +1,25 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import dentist from "../../Images/dentist.jpeg";
+import words from "../../Images/dentistwords.jpeg";
 
-const Appointment = () => {
+const Contact = () => {
   return (
     <div className="myHomeHero">
       <Card className="bg-dark">
-        <Card.Img src={dentist} alt="Keith Brown" />
+        <Card.Img src={words} alt="Keith Brown" />
         <Card.ImgOverlay className="heroOverlay">
           <Card.Title className="heroTitle">
-            Let us brighten your{" "}
+            Have Questions? We have{" "}
             <span className="curved-underline">
-              Appointment.
+              Answers.
               <span className="curve"></span>
             </span>
           </Card.Title>
 
           <Card.Text>
           
-            Dr. Keith A. Brown, D.D.S., F.A.G.D., has been serving Naperville and
-            the Chicagoland area for more than 40 years. Schedule a cleaning or
-            appointment today!
+          Let us know if you have any questions or need more information about our office, what services we provice, financing or insurance questions or anything on how we can make your visit go as pleasently as possible!
+
           </Card.Text>
 
         </Card.ImgOverlay>
@@ -29,4 +28,4 @@ const Appointment = () => {
   );
 };
 
-export default Appointment;
+export default Contact;

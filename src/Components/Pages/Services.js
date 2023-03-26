@@ -1,28 +1,27 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import  HeroBanner from "../HeroBanner";
-import bank from "../../Images/bank.jpeg";
+import insurance from "../../Images/insurance.jpeg";
 
 
 
-const Location = () => {
+const Services = () => {
   return (
-    <div className="myLocation">
+    <div className="myServices">
       <Card className="bg-dark">
-        <Card.Img src={bank} alt="Keith Brown" />
+        <Card.Img src={insurance} alt="Keith Brown" />
         <Card.ImgOverlay className="heroOverlay">
           <Card.Title className="heroTitle">
-            Conveiently Located in {" "}
+            Meet Your Next {" "}
             <span className="curved-underline">
-              Naperville.
+              Dentist.
               <span className="curve"></span>
             </span>
           </Card.Title>
 
           <Card.Text>
           
-          Located in the thrid floor of the Fifth Third Bank at 75th St. and Rickert Drive
-
+          Dr. Keith A. Brown, D.D.S., F.A.G.D, has been practicing dentristry in Naperville for more than 40 years.
 
           </Card.Text>
 
@@ -33,4 +32,4 @@ const Location = () => {
   );
 };
 
-export default Location;
+export default Services;

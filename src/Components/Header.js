@@ -22,18 +22,14 @@ const Header = () => {
             <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="/faqs">FAQs</Nav.Link>
             <NavDropdown title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">General Dentistry</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/services">General Dentistry</NavDropdown.Item>
+              <NavDropdown.Item href="/services">
               Cosmetic Dentistry
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/services">
               Surgical Dentistry
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              
             </NavDropdown>
           </Nav>
           {/* Buttons from Sematnic UI  */}
