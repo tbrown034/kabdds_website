@@ -11,6 +11,7 @@ function ServicesBanner() {
   return (
     <div className="bannerContainer">
      <div className="myH1">A Full Service Dentist Office</div>
+     
    
       <div className="myH2">
         We provide a range of dental services to take the best care of you and

@@ -1,7 +1,12 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Image } from "react-bootstrap";
 import  HeroBanner from "../HeroBanner";
 import keith from "../../Images/practice.jpeg";
+import dad2 from "../../Images/dad2.jpg"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 
 
 
@@ -28,6 +33,21 @@ const About = () => {
         </Card.ImgOverlay>
       </Card>
       <HeroBanner />
+      <div className="reviewPackageContainer">
+      <Container  fluid>
+        <Row >
+          <Col  md={7} >
+          <div className="myH1">More than a Typical Dentist</div>
+            <div className="myH2">
+              Dr. Brown is one of just <a href="https://www.agd.org/education/awards-recognition/become-an-agd-fellow">6% of all dentists</a> in the country to become a Fellow or Master of the Academy of General Dentistry (F.A.G.D.). And with more than 40 years of experience, you can rest assured you are in trustworthy hands. 
+            </div>
+          </Col>
+          <Col style={{ padding: 0 }} md={5}>
+            <Image fluid="md" className="secondaryImage" src={dad2}  />
+          </Col>
+        </Row>
+      </Container>
+      </div>
       </div>
   );
 };

@@ -8,11 +8,11 @@ const ReviewPackage = () => {
     <div className="reviewPackageContainer">
       <Container  fluid>
         <Row className="align-items-center">
-          <Col  md={7} >
+          <Col  lg={7} >
             <ReviewSlider />
           </Col>
-          <Col  md={5}>
-            <Image fluid="md" className="reviewImage" src={smile}  />
+          <Col style={{ padding: 0 }} lg={5}>
+            <Image fluid="md" className="secondaryImage" src={smile}  />
           </Col>
         </Row>
       </Container>

@@ -8,7 +8,7 @@
   /* background theme  */
   --primary-bg-color: #cedfce;
   --secondary-bg-color: #a4cba4;
-  --tertiary-bg-color: #c3dcc3;
+  --tertiary-bg-color: #e5efe5;
   --quaternary-bg-color: #a4cba4;
   /* font theme  */
   --primary-font: "Roboto", sans-serif;
@@ -21,13 +21,12 @@
 
 .myH1 {
   font-size: 50px;
-  color: var(--primary-color);
-
-}
+  color: var(--primary-color);}
 
 .myH2 {
   font-size: 25px;
   color: var(--secondary-color);
+  position: relative;
 }
 
 
@@ -68,6 +67,16 @@ button.ui.button {
 button.ui.button:hover {
   border: var(--primary-color) solid 1.25px;
   background-color: var(--secondary-bg-color);
+}
+
+.secondaryImage {
+  border: white 2px solid;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.secondaryCol {
+  padding-right: 0 !important;
 }
 
 
@@ -180,6 +189,9 @@ button.ui.button:hover {
 }
 
 /* ReviewSlider */
+
+
+
 
 .reviewPackageContainer {
   background-color: var(--secondary-bg-color);

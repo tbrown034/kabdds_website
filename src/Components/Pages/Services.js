@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import  HeroBanner from "../HeroBanner";
-import insurance from "../../Images/insurance.jpeg";
+import dentist2 from "../../Images/dentist2.jpeg";
 
 
 
@@ -9,19 +9,19 @@ const Services = () => {
   return (
     <div className="myServices">
       <Card className="bg-dark">
-        <Card.Img src={insurance} alt="Keith Brown" />
+        <Card.Img src={dentist2} alt="Keith Brown" />
         <Card.ImgOverlay className="heroOverlay">
           <Card.Title className="heroTitle">
-            Meet Your Next {" "}
+            We'll Take Care of Your {" "}
             <span className="curved-underline">
-              Dentist.
+              Teeth.
               <span className="curve"></span>
             </span>
           </Card.Title>
 
           <Card.Text>
           
-          Dr. Keith A. Brown, D.D.S., F.A.G.D, has been practicing dentristry in Naperville for more than 40 years.
+          Our goal is to have your teeth looking great and free of pain or discomfort in as short a time as possible.
 
           </Card.Text>
 
