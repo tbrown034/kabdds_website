@@ -6,6 +6,7 @@ import dad2 from "../../Images/dad2.jpg"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Fellow from "../SubComponents/Fellow"
 
 
 
@@ -34,18 +35,22 @@ const About = () => {
       </Card>
       <HeroBanner />
       <div className="reviewPackageContainer">
-      <Container  fluid>
+      <Container style={{ padding: 0 }} fluid>
         <Row >
-          <Col  md={7} >
+          <Col  lg={8} >
           <div className="myH1">More than a Typical Dentist</div>
             <div className="myH2">
               Dr. Brown is one of just <a href="https://www.agd.org/education/awards-recognition/become-an-agd-fellow">6% of all dentists</a> in the country to become a Fellow or Master of the Academy of General Dentistry (F.A.G.D.). And with more than 40 years of experience, you can rest assured you are in trustworthy hands. 
             </div>
+            <br></br>
+            
           </Col>
-          <Col style={{ padding: 0 }} md={5}>
+          <Col style={{ padding: 0 }} lg={4}>
             <Image fluid="md" className="secondaryImage" src={dad2}  />
           </Col>
         </Row>
+        <Fellow />
+
       </Container>
       </div>
       </div>
