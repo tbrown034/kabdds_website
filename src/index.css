@@ -1,63 +1,48 @@
-/* color and font themes  */
+/*    color and font themes     */
 :root {
   /* color theme  */
   --primary-color: #1e3d58;
   --secondary-color: #375a62;
   --tertiary-color: #e0ece4;
   --quaternary-color: #e0ece4;
-  --primary-bg-color: #ffffff;
-  --secondary-bg-color: #e7f1fb;
+  --primary-bg-color: #e2eef2;
+  --secondary-bg-color: #ecf2f9;
   --tertiary-bg-color: #e0ece4;
   --quaternary-bg-color: #9ac6c5;
   /* font theme  */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: 'Merriweather', serif;
   --tertiary-font: font-family: 'Barlow', sans-serif;
-
 }
 
-/* Global  */
+/*    Global     */
 
-.myH1 {
+h1 {
   font-size: 50px;
   color: var(--primary-color);}
 
-.myH2 {
-  font-size: 25px;
-  color: var(--secondary-color);
-  position: relative;
-}
-
+h2 {
+  font-size:25px;
+  color: var(--secondary-color);}
 
 H3 {
-  text-decoration: underline;
-}
-
+  text-decoration: underline;}
 
 p {
   font-family: 'Merriweather', serif;
   color: var(--primary-color);
-
+  font-size: 20px;
 }
 
-
-.curved-underline {
-  position: relative;
+a {
+  text-decoration: none ;
 }
 
-
-.curve {
-  position: absolute;
-  bottom: -6px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 100%;
-  background-color: var(--tertiary-bg-color);
-  border-radius: 0 0 80% 80% / 0 0 100% 100%;
+.center-text {
+  text-align: center;
 }
 
-
+/* Buttons */
 button.ui.button {
   border: var(--primary-color) solid 1.25px;
   background-color: var(--primary-bg-color);
@@ -68,70 +53,15 @@ button.ui.button:hover {
   background-color: var(--secondary-bg-color);
 }
 
-.secondaryImage {
-  border: white 2px solid;
-  padding-right: 0;
-  margin-right: 0;
-}
-
-.myFellow {
-  background-color: var(--primary-bg-color);
-  margin-left: 0px;
-  padding: 20px
-}
-
-.secondContainer {
-  background-color: var(--secondary-bg-color);
-}
-
-
-
-.centered-content {
+.btnGroup {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  height: 100%;
 }
 
-/* Components  */
-/* Header Components  */
-.bg-my-color {
-  background-color: var(--primary-bg-color);
-}
+/*    Pages    */
 
-a {
-  text-decoration: none !important;
-}
-
-
-
-
-/* To change Link color or size --> */
-/* .navbar .myNavLinks .nav-link {
-        font-size: 33px;
-        color: var(--primary-color);
-        } */
-
-/* To change brand (after applying bsPrefix) -->     *
-  /* .myBrand {
-        display: inline-block;
-        padding-top: 0.3125rem;
-        padding-bottom: 0.3125rem;
-        margin-right: 1rem;
-        font-size: 22px;
-        white-space: nowrap;
-        color: rgb(235, 217, 217);
-        text-decoration: none;
-      } */
-
-/* Home Hero Section */
-
-
-.myHomeHero .card-img {
-  object-fit: cover;
-  height: 60vh;
-  filter: brightness(50%);
-}
+/* Top Hero Display */
 
 .card-img {
   object-fit: cover;
@@ -144,17 +74,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
-
-.heroTitle.card-title {
-  font-size: 55px;
-  color: var(--tertiary-color);
-
-}
-
-
-
 
 .card-text {
   font-size: 25px;
@@ -162,13 +82,16 @@ a {
   text-align: center;
 }
 
-.btnGroup {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.secondaryImage {
+  border: white 2px solid;
+  padding-right: 0;
+  margin-right: 0;
+}
+.secondContainer {
+  background-color: var(--secondary-bg-color);
 }
 
-
+/* Misc Styles  */
 
 .curved-underline {
   position: relative;
@@ -187,9 +110,31 @@ a {
 }
 
 
+/*       Components        */
+/* Header  */
+.bg-my-color {
+  background-color: var(--primary-bg-color);
+}
+
+/* Home Hero Section */
+
+.myHomeHero .card-img {
+  object-fit: cover;
+  height: 60vh;
+  filter: brightness(50%);
+}
+
+.heroTitle.card-title {
+  font-size: 55px;
+  color: var(--tertiary-color);
+}
 
 
-/* HeroBanner */
+
+
+
+
+/*    HeroBanner    */
 
 
 
@@ -217,9 +162,7 @@ a {
   padding-bottom: 14px;
 }
 
-.reviewText {
-  font-size: 20px;
-}
+
 
 .reviewHolder {
   padding: 4px 30px 30px 30px;
@@ -385,6 +328,12 @@ Map  */
   padding-bottom: 20px;
 }
 
+.myFellow {
+  background-color: var(--primary-bg-color);
+  margin-left: 0px;
+  padding: 20px
+}
+
 
 
 
@@ -417,10 +366,7 @@ Map  */
 
   }
 
-  Review Slider Mobile .reviewBackground {
-    min-height: 600px;
-    background-color: var(--primary-bg-color);
-  }
+
 
   .heroTitle.card-title {
     font-size: 40px;

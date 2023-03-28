@@ -15,14 +15,14 @@ const MapPackage = () => {
               <Map />
             </Col>
             <Col className="colText" lg={3}>
-              <div className="myH1">
+              <h1>
                 Prouldy Located in the Heart of Napeville, IL.
-              </div>
-              <div className="myH2">
+              </h1>
+              <h2>
                 We have been located on the third floor of the FifthThird bank,
                 located at <span className="address">{myAddress}</span>, for the
                 past 30 years. Come visit us!{" "}
-              </div>
+              </h2>
               <div className="btnGroup">
                 <Button id="directButton" animated>
                   <Button.Content visible>

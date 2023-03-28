@@ -10,13 +10,13 @@ import Row from "react-bootstrap/Row";
 function ServicesBanner() {
   return (
     <div className="bannerContainer">
-     <div className="myH1">A Full Service Dentist Office</div>
+     <h1>A Full Service Dentist Office</h1>
      
    
-      <div className="myH2">
+      <h2>
         We provide a range of dental services to take the best care of you and
         your family's dental health for life. Whether it's your child's first cleaning or an emergnecy procedure, we got you covered.
-      </div>
+      </h2>
 
       <CardGroup>
         <Row xl={3} md={3} sm={1} xs={"auto"} className="g-4">

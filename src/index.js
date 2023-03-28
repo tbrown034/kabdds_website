@@ -2,11 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './index.css';
 import 'semantic-ui-css/semantic.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import './index.css'; // Import your custom styles after the library styles
 
 // Removed StictMode to get rid of error 
 const root = ReactDOM.createRoot(document.getElementById('root'));

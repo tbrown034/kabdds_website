@@ -32,23 +32,20 @@ const About = () => {
         <Row>
           <Col lg={8}>
             <Container className="textHolder">
-              <div className="myH1">More than a Typical Dentist</div>
+              <h1 className="center-text">More than a Typical Dentist</h1>
 
 
-              
-              <div className="myH2">
+
+              <h2 >
                 Dr. Brown is one of just{" "}
                 <a href="https://www.agd.org/education/awards-recognition/become-an-agd-fellow">
                   6% of all dentists
                 </a>{" "}
                 in the country to become a Fellow or Master of the Academy of
                 General Dentistry (F.A.G.D.).
-                <div className="myH2">
-                  {" "}
-                  And with more than 40 years of experience, you can rest
-                  assured you are in trustworthy hands.
-                </div>
-              </div>
+               
+              </h2>
+              
             </Container>
           </Col>
           <Col style={{ padding: 0 }} lg={4}>
