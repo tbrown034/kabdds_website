@@ -5,7 +5,7 @@ import smile from "../../Images/smile3.webp"
 const ReviewPackage = () => {
   return (
     <>
-    <div className="reviewPackageContainer">
+    <div className="secondContainer">
       <Container  fluid>
         <Row className="align-items-center">
           <Col  lg={7} >

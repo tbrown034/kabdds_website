@@ -1,15 +1,14 @@
 /* color and font themes  */
 :root {
   /* color theme  */
-  --primary-color: #494a64;
-  --secondary-color: #52527a;
-  --tertiary-color: #ccddcc;
-  --quaternary-color: #95c095;
-  /* background theme  */
-  --primary-bg-color: #cedfce;
-  --secondary-bg-color: #a4cba4;
-  --tertiary-bg-color: #e5efe5;
-  --quaternary-bg-color: #a4cba4;
+  --primary-color: #1e3d58;
+  --secondary-color: #375a62;
+  --tertiary-color: #e0ece4;
+  --quaternary-color: #e0ece4;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #e7f1fb;
+  --tertiary-bg-color: #e0ece4;
+  --quaternary-bg-color: #9ac6c5;
   /* font theme  */
   --primary-font: "Roboto", sans-serif;
   --secondary-font: 'Merriweather', serif;
@@ -81,13 +80,27 @@ button.ui.button:hover {
   padding: 20px
 }
 
+.secondContainer {
+  background-color: var(--secondary-bg-color);
+}
 
 
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
 /* Components  */
 /* Header Components  */
 .bg-my-color {
   background-color: var(--primary-bg-color);
+}
+
+a {
+  text-decoration: none !important;
 }
 
 
@@ -196,10 +209,7 @@ button.ui.button:hover {
 
 
 
-.reviewPackageContainer {
-  background-color: var(--secondary-bg-color);
 
-}
 
 .reviewTitle {
   text-align: center;
