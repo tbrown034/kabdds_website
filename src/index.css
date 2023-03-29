@@ -4,7 +4,7 @@
   --primary-color: #1e3d58;
   --secondary-color: #375a62;
   --tertiary-color: #e0ece4;
-  --quaternary-color: #e0ece4;
+  --quaternary-color: #e2eef2;
   --primary-bg-color: #e2eef2;
   --secondary-bg-color: #ecf2f9;
   --tertiary-bg-color: #e0ece4;
@@ -73,13 +73,18 @@ button.ui.button:hover {
 .heroOverlay {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+
+
 }
+
+
 
 .card-text {
   font-size: 25px;
   color: var(--tertiary-color);
-  text-align: center;
+  padding: 5px 33% 5px 0%;
+;
 }
 
 .secondaryImage {
@@ -89,6 +94,7 @@ button.ui.button:hover {
 }
 .secondContainer {
   background-color: var(--secondary-bg-color);
+  padding: 10px 0 10px 0;
 }
 
 /* Misc Styles  */
@@ -328,12 +334,24 @@ Map  */
   padding-bottom: 20px;
 }
 
+.next {
+  color: var(--quaternary-color);
+}
+
+.bold {
+  color: whitesmoke;
+}
+
 .myFellow {
   background-color: var(--primary-bg-color);
   margin-left: 0px;
   padding: 20px
 }
 
+.myAbout {
+  background-color: var(--secondary-bg-color);}
+
+ 
 
 
 
