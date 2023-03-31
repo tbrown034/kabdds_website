@@ -25,13 +25,12 @@ h2 {
   font-size:25px;
   color: var(--secondary-color);}
 
-H3 {
-  text-decoration: underline;}
+
 
 p {
   font-family: 'Merriweather', serif;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 a {
@@ -79,7 +78,6 @@ button.ui.button:hover {
 }
 
 
-
 .card-text {
   font-size: 25px;
   color: var(--tertiary-color);
@@ -88,13 +86,19 @@ button.ui.button:hover {
 }
 
 .secondaryImage {
-  border: white 2px solid;
-  padding-right: 0;
-  margin-right: 0;
+  border: white 10px solid;
+  object-fit: cover;
+
 }
 .secondContainer {
   background-color: var(--secondary-bg-color);
-  padding: 10px 0 10px 0;
+
+}
+
+
+
+.colRight {
+  padding-left: 0;
 }
 
 /* Misc Styles  */
@@ -350,6 +354,15 @@ Map  */
 
 .myAbout {
   background-color: var(--secondary-bg-color);}
+
+.quoteCard {
+  background-color: var(--secondary-bg-color);
+}
+
+
+
+  
+
 
  
 
