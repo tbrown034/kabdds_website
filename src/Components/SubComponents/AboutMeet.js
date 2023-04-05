@@ -2,16 +2,29 @@ import React from "react";
 import { Icon } from "semantic-ui-react";
 import Container from "react-bootstrap/Container";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faTooth } from '@fortawesome/free-solid-svg-icons'
 
 
 const AboutMeet = () => {
+  const iconStyle = {
+    animation: 'custom-beat 2s infinite',
+    animationDuration: '10s',
+    animationTimingFunction: 'linear',
+  };
   return (
     <div className="myAboutMeet center-text">
       <Container fluid>
        
           <h1  >Our Dental Philosophy</h1>
-          <FontAwesomeIcon icon={faEnvelope} bounce />
+          <FontAwesomeIcon
+  icon={faTooth}
+  size="8x"
+  className="icon fa-bounce"
+  style={{
+    animationDuration: '2s',
+    animationIterationCount: '5',
+  }}
+/>
                   <p>
                   {" "}<Icon name="quote left"  />
                     Working in dentistry for
