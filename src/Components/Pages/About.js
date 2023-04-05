@@ -3,6 +3,9 @@ import HeroBanner from "../HeroBanner";
 import Fellow from "../SubComponents/AboutFellow";
 import Meet from "../SubComponents/AboutMeet";
 import Hero from "../SubComponents/AboutHero";
+import Logos from "../SubComponents/AboutLogos"
+import CV from "../SubComponents/AboutCv"
+
 
 
 
@@ -10,9 +13,13 @@ const About = () => {
   return (
     <div className="myAbout">
      <Hero />
-      <HeroBanner />
+      
       <Meet />
+      <HeroBanner />
+      <CV />
+      
       <Fellow />
+      {/* <Logos /> */}
     </div>
   );
 };

@@ -23,7 +23,10 @@ h1 {
 
 h2 {
   font-size:25px;
-  color: var(--secondary-color);}
+  color: var(--secondary-color);
+  
+
+}
 
 
 
@@ -58,6 +61,11 @@ button.ui.button:hover {
   justify-content: center;
 }
 
+.signature {
+  font-family: cursive;
+
+}
+
 /*    Pages    */
 
 /* Top Hero Display */
@@ -87,7 +95,6 @@ button.ui.button:hover {
 
 .secondaryImage {
   border: white 10px solid;
-  object-fit: cover;
 
 }
 .secondContainer {
@@ -347,16 +354,53 @@ Map  */
 }
 
 .myFellow {
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   margin-left: 0px;
   padding: 20px
 }
 
-.myAbout {
-  background-color: var(--secondary-bg-color);}
+
 
 .quoteCard {
   background-color: var(--secondary-bg-color);
+}
+
+.myAboutMeet {
+  background-color: var(--secondary-bg-color);
+  padding: 25px;
+}
+
+.bottom-padding {
+  padding-bottom: 15px;
+}
+
+
+
+.myLogos {
+ 
+  background-color: var(--primary-bg-color); 
+
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.logoImage {
+  padding-bottom: 16px;
+}
+
+.myAboutCv {
+  background-color: var(--secondary-bg-color); 
+
+
+}
+
+.myAboutCv .secondaryImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This line ensures the image maintains its aspect ratio while covering the available space. */
 }
 
 
