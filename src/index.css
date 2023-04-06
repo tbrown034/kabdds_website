@@ -296,11 +296,12 @@ Map  */
   padding: 20px;
 }
 
+
+
 .footerApptBox {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border: #494a64 2px solid;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
@@ -355,8 +356,7 @@ Map  */
 
 .myFellow {
   background-color: var(--secondary-bg-color);
-  margin-left: 0px;
-  padding: 20px
+  padding: 25px
 }
 
 
@@ -377,24 +377,43 @@ Map  */
 
 
 .myLogos {
+  padding: 50px 25px 50px 25px;
  
   background-color: var(--primary-bg-color); 
 
 
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 
 }
 
 .logoImage {
-  padding-bottom: 16px;
+  width: 100%;
+  height: auto;
+  max-height: 100px; /* adjust this value to change the size of the images */
+  object-fit: contain;
+  padding: 10px;
+}
+
+.logoGroup {
+  display: flex;
+  justify-content: center; /* Horizontally center images */
+  align-items: center; /* Vertically center images */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .myAboutCv {
   background-color: var(--secondary-bg-color); 
+  padding: 25px;
 
 
+}
+
+
+.icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
 }
 
 
@@ -406,6 +425,25 @@ Map  */
   object-fit: cover; /* This line ensures the image maintains its aspect ratio while covering the available space. */
 }
 
+.myStats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--tertiary-bg-color);
+  padding: 20px;
+ 
+}
+
+.statGroup {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+
+
 
 
   
@@ -415,8 +453,75 @@ Map  */
 
 
 
+
+
+
+
+
+.myDYK {
+  padding: 25px;
+  background-color: var(--secondary-bg-color);
+}
+
+.pull-quote {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+
+  font-size: 1.5em;
+  line-height: 1.4;
+  margin: 1.5em 0;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+
+
+.quote-card {
+  background-color: var(--tertiary-bg-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+padding: 20px;  text-align: center;
+}
+
+.quote-text {
+
+  margin-bottom: 20px;
+}
+
+.logoQuote {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
 /* Media Query  */
 @media (max-width: 767px) {
+
+  .experience {
+    padding-top: 20px;
+  }
+
+  .myStats {
+    margin-top: 10px;
+  }
 
   .myMapPackage .myH2 {
     padding-bottom: 10px;
@@ -460,3 +565,4 @@ Map  */
   }
 
 }
+

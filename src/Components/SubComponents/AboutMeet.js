@@ -6,11 +6,7 @@ import { faTooth } from '@fortawesome/free-solid-svg-icons'
 
 
 const AboutMeet = () => {
-  const iconStyle = {
-    animation: 'custom-beat 2s infinite',
-    animationDuration: '10s',
-    animationTimingFunction: 'linear',
-  };
+ 
   return (
     <div className="myAboutMeet center-text">
       <Container fluid>
@@ -22,7 +18,7 @@ const AboutMeet = () => {
   className="icon fa-bounce"
   style={{
     animationDuration: '2s',
-    animationIterationCount: '5',
+    animationIterationCount: '1',
   }}
 />
                   <p>

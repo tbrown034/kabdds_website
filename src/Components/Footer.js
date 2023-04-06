@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="myFooter">
       <Container fluid="md">
-        <Row className="footerApptBox">
+        <Row className="footerApptBox ">
           <h1>Make your Appointment Today</h1>
           <h2>
             Give us a call, send us a message or request an appointment today!

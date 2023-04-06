@@ -10,7 +10,7 @@ const AboutHero = () => {
       <Card className="bg-dark">
         <Card.Img src={keith} alt="Keith Brown" />
         <Card.ImgOverlay className="heroOverlay">
-        <Card.Text className="next"><h5>Meet your Next Dentist</h5></Card.Text>
+        <Card.Text className="next">Meet your Next Dentist</Card.Text>
           <Card.Title className="heroTitle">Dr. Keith Brown {" "}<span className="curved-underline">
               DDS, FAGD
               <span className="curve"></span>
