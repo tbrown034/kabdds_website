@@ -25,11 +25,12 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/faqs" element={<FAQs />} />
+        <Route element={<Footer />} />
 
 
 
       </Routes>
-      <Footer />
+      
     </div>
   </BrowserRouter>
   );

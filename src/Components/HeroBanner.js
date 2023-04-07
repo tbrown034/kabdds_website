@@ -1,7 +1,7 @@
 import { Segment, Icon, Button } from "semantic-ui-react";
 
 
-const HeroBanner = () => {
+const HeroBanner = ({colorType}) => {
   const data = [
     {
       id: 1,
@@ -30,7 +30,9 @@ const HeroBanner = () => {
   ];
 
   return (
-    <Segment.Group  className="heroSegment" horizontal>
+    <Segment.Group className={`heroSegment ${colorType === "secondary" ? 'secondaryColor' : ''}`} horizontal>
+      
+
       {data.map((item) => (
         <Segment  key={item.id}>
           <Icon name={item.icon} size="big" />

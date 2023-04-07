@@ -5,6 +5,8 @@ import Hero from "../SubComponents/AboutHero";
 import Logos from "../SubComponents/AboutLogos"
 import CV from "../SubComponents/AboutCv"
 import DYK from "../SubComponents/AboutDYK"
+import Footer from "../Footer"
+
 
 
 
@@ -16,10 +18,13 @@ const About = () => {
      <Hero />
       
       <Meet />
-      <HeroBanner />
+      <HeroBanner colorType={"secondary"} />
       <CV />
-      <Logos />
+      
       <DYK />
+      <Logos />
+      <Footer colorType={"secondary"}/>
+
 
       
     </div>

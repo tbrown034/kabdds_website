@@ -2,17 +2,17 @@
 :root {
   /* color theme  */
   --primary-color: #1e3d58;
-  --secondary-color: #375a62;
-  --tertiary-color: #e0ece4;
-  --quaternary-color: #e2eef2;
-  --primary-bg-color: #e2eef2;
-  --secondary-bg-color: #ecf2f9;
+  --secondary-color: #3c7a89;
+  --tertiary-color: #9ac6c5;
+  --quaternary-color: #e0ece4;
+  --primary-bg-color: #fbfcfc;
+  --secondary-bg-color: #dbe1e8;
   --tertiary-bg-color: #e0ece4;
   --quaternary-bg-color: #9ac6c5;
-  /* font theme  */
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: 'Merriweather', serif;
-  --tertiary-font: font-family: 'Barlow', sans-serif;
+  /* font theme */
+  --primary-font: "Lato", sans-serif;
+  --secondary-font: "Roboto Slab", serif;
+  --tertiary-font: "Montserrat", sans-serif;
 }
 
 /*    Global     */
@@ -40,8 +40,18 @@ a {
   text-decoration: none ;
 }
 
+/* Utility Classes  */
 .center-text {
   text-align: center;
+}
+
+.side-padding {
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
 }
 
 /* Buttons */
@@ -64,6 +74,10 @@ button.ui.button:hover {
 .signature {
   font-family: cursive;
 
+}
+
+.secondaryColor {
+  background-color: var(--secondary-bg-color) !important;
 }
 
 /*    Pages    */
@@ -93,10 +107,7 @@ button.ui.button:hover {
 ;
 }
 
-.secondaryImage {
-  border: white 10px solid;
 
-}
 .secondContainer {
   background-color: var(--secondary-bg-color);
 
@@ -154,16 +165,18 @@ button.ui.button:hover {
 /*    HeroBanner    */
 
 
-
-
-.heroSegment {
+.ui.horizontal.segments.heroSegment {
   color: var(--primary-color);
-  background-color: var(--primary-bg-color) !important;
+  background-color: var(--primary-bg-color);
   text-align: center;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+.ui.horizontal.segments.heroSegment.secondaryColor {
+  background-color: var(--secondary-bg-color);
 }
 
 /* ReviewSlider */
@@ -263,7 +276,7 @@ Map  */
 .colText {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 ;
 }
 
@@ -366,8 +379,8 @@ Map  */
 }
 
 .myAboutMeet {
-  background-color: var(--secondary-bg-color);
-  padding: 25px;
+  background-color: var(--primary-bg-color);
+  padding: 25px 5% 25px 5%;
 }
 
 .bottom-padding {
@@ -377,7 +390,7 @@ Map  */
 
 
 .myLogos {
-  padding: 50px 25px 50px 25px;
+  padding: 100px 25px 100px 25px;
  
   background-color: var(--primary-bg-color); 
 
@@ -401,7 +414,7 @@ Map  */
 }
 
 .myAboutCv {
-  background-color: var(--secondary-bg-color); 
+  background-color: var(--primary-bg-color); 
   padding: 25px;
 
 
@@ -459,7 +472,7 @@ Map  */
 
 
 .myDYK {
-  padding: 25px;
+  padding: 50px 25px 50px 25px;
   background-color: var(--secondary-bg-color);
 }
 
@@ -480,7 +493,7 @@ Map  */
 
 
 .quote-card {
-  background-color: var(--tertiary-bg-color);
+  background-color: var(--primary-bg-color);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 padding: 20px;  text-align: center;
@@ -508,8 +521,18 @@ padding: 20px;  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: var(--primary-bg-color);
+
 }
 
+
+/* Financing */
+
+.myFinancingInfo {
+  background-color: var(--secondary-bg-color);
+  padding: 25px 5% 25px 5%;
+
+}
 
 
 /* Media Query  */

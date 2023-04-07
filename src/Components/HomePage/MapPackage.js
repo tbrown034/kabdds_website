@@ -16,7 +16,7 @@ const MapPackage = () => {
             </Col>
             <Col className="colText" lg={3}>
               <h1>
-                Prouldy Located in the Heart of Napeville, IL.
+              Conveniently Located in the Heart of Napeville, IL.
               </h1>
               <h2>
                 We have been located on the third floor of the FifthThird bank,

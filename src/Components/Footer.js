@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Button, Icon } from "semantic-ui-react";
 
-const Footer = () => {
+const Footer = ({colorType}) => {
   const handleClick = () => {
     const confirmed = window.confirm("Are you sure you want to call?");
     if (confirmed) {
@@ -11,7 +11,7 @@ const Footer = () => {
     }
   };
   return (
-    <div className="myFooter">
+    <div className={`myFooter ${colorType === "secondary" ? 'secondaryColor' : ''}`} horizontal>
       <Container fluid="md">
         <Row className="footerApptBox ">
           <h1>Make your Appointment Today</h1>

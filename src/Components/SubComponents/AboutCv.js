@@ -6,26 +6,25 @@ const AboutCv = () => (
   <div className="myAboutCv">
     <Container fluid>
       <Row>
-        <Col lg="4" style={{ padding: 0 }}>
+        <Col xl="4">
           {" "}
           <Image fluid="md" className="secondaryImage" src={dentist} />
         </Col>
-        <Col className="experience" lg="8">
+        <Col className="experience side-padding" lg="8">
           {" "}
-          <h1 className="center-text">Experience You Can Trust</h1>
+          <h1 className="center-text padding-bottom" >Experience You Can Trust</h1>
           <p>
             Keith A. Brown DDS FAGD is an experienced dentist with over 42 years
-            of experience in the field. Since July 1980, he has been providing
+            of experience in the field. Since 1980, he has been providing
             top-notch dental care to patients of all ages. Dr. Brown's passion
             for dentistry is driven by his commitment to staying current with
             the latest techniques and technology.
           </p>
           <p>
-            Dr. Brown received his Doctor of Dental Surgery degree from Loyola
-            Dental School in 1980. Prior to that, he earned his Bachelor of Arts
-            degree in Chemistry and Biology from North Central College in 1976.
-            He attended Naperville Central High School and Fenger High School in
-            the Southside of Chicago before that.
+            Dr. Brown earned  his Doctor of Dental Surgery degree from Loyola
+            Dental School. Prior to that, he earned Bachelor of Arts
+            degrees in Chemistry and Biology from North Central College. A lifelong Chicagoland residnet, Dr. Brown attended Naperville Central High School and Fenger High School in
+            the Southside of Chicago.
           </p>
           <p>
             In addition to his commitment to dentistry, Dr. Brown is a Fellow of
