@@ -6,6 +6,7 @@ import Logos from "../SubComponents/AboutLogos"
 import CV from "../SubComponents/AboutCv"
 import DYK from "../SubComponents/AboutDYK"
 import Footer from "../Footer"
+import More from "../SubComponents/AboutMore"
 
 
 
@@ -22,8 +23,10 @@ const About = () => {
       <CV />
       
       <DYK />
+      <More />
       <Logos />
-      <Footer colorType={"secondary"}/>
+    
+      <Footer colorType={"primary"}/>
 
 
       

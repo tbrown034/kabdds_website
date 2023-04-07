@@ -394,7 +394,7 @@ Map  */
 .myLogos {
   padding: 100px 25px 100px 25px;
  
-  background-color: var(--primary-bg-color); 
+  background-color: var(--secondary-bg-color); 
 
 
 
@@ -440,6 +440,13 @@ Map  */
   object-fit: cover; /* This line ensures the image maintains its aspect ratio while covering the available space. */
 }
 
+.secondaryImage {
+  max-height: 100%;
+  object-fit: contain;
+
+
+}
+
 .myStats {
   display: flex;
   flex-direction: column;
@@ -455,6 +462,21 @@ Map  */
   display: flex;
   justify-content: center;
   height: 100%;
+}
+
+.myAboutMore {
+  background-color: var(--primary-bg-color);
+  padding: 25px 5% 25px 5%;
+
+
+
+}
+
+.personalText {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 
