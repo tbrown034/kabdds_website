@@ -158,7 +158,9 @@ button.ui.button:hover {
 }
 
 
-
+.homeImage {
+  border-left: white 3px solid;
+}
 
 
 
@@ -537,6 +539,10 @@ padding: 20px;  text-align: center;
 
 /* Media Query  */
 @media (max-width: 767px) {
+
+  .homeImage {
+    border-top: white 3px solid;
+  }
 
   .experience {
     padding-top: 20px;

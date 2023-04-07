@@ -12,7 +12,7 @@ const ReviewPackage = () => {
             <ReviewSlider />
           </Col>
           <Col style={{ padding: 0 }} lg={5}>
-            <Image fluid="md" className="secondaryImage" src={smile}  />
+            <Image fluid="md" className="homeImage" src={smile}  />
           </Col>
         </Row>
       </Container>
