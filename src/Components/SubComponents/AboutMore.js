@@ -6,7 +6,7 @@ const AboutMore = () => {
     <div className="myAboutMore">
       <Container fluid>
         <Row>
-          <Col className="center-text personalText" xl="6">
+          <Col className="center-text personalText side-padding" xl="6">
             <h1>Outside the Office</h1>
             <p>
               When Dr. Brown is not helping his patients, he loves spending time

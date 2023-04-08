@@ -2,6 +2,8 @@ import React from "react";
 import  HeroBanner from "../HeroBanner";
 import  FinancingHero from "../SubComponents/FinancingHero";
 import  FinancingInfo from "../SubComponents/FinancingInfo";
+import Footer from "../Footer"
+
 
 
 
@@ -13,7 +15,8 @@ const Financing = () => {
       <FinancingHero />
       <FinancingInfo />
     
-      <HeroBanner />
+      <HeroBanner colorType={"secondary"}/>
+      <Footer />
       </div>
   );
 };

@@ -19,14 +19,14 @@ const About = () => {
      <Hero />
       
       <Meet />
-      <HeroBanner colorType={"secondary"} />
+      <HeroBanner colorType={"primary"} />
       <CV />
       
       <DYK />
       <More />
       <Logos />
     
-      <Footer colorType={"primary"}/>
+      <Footer colorType={"secondary"}/>
 
 
       

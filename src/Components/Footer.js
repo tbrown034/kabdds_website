@@ -12,7 +12,7 @@ const Footer = ({colorType}) => {
   };
   return (
     <div className={`myFooter ${colorType === "secondary" ? 'secondaryColor' : ''}`} horizontal>
-      <Container fluid="md">
+      <Container className="center-text" fluid="md">
         <Row className="footerApptBox ">
           <h1>Make your Appointment Today</h1>
           <h2>
@@ -66,9 +66,9 @@ const Footer = ({colorType}) => {
             <p>
               <a href="/services">Cosmetic Dentistry</a>
             </p>
-
+<p>
             <a href="/services">FAQS</a>
-          </Col>
+            </p></Col>
           <Col>
             <h3>Office Hours</h3>
             <p>
