@@ -1,22 +1,13 @@
 import { Icon } from "semantic-ui-react";
 import Container from "react-bootstrap/Container";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTooth } from "@fortawesome/free-solid-svg-icons";
 
-const AboutMeet = () => {
+
+const AboutQuote = () => {
   return (
-    <div className="myAboutMeet center-text">
+    <div className="myAboutMeet  center-text">
       <Container fluid>
         <h1>Our Dental Philosophy</h1>
-        <FontAwesomeIcon
-          icon={faTooth}
-          size="8x"
-          className="icon fa-bounce"
-          style={{
-            animationDuration: "2s",
-            animationIterationCount: "1",
-          }}
-        />
+        
         <p>
           {" "}
           <Icon name="quote left" />
@@ -38,4 +29,4 @@ const AboutMeet = () => {
   );
 };
 
-export default AboutMeet;
+export default AboutQuote;

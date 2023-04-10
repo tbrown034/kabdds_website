@@ -7,8 +7,8 @@ import Fellow from "../../Images/Fellow.png";
 import NCC from "../../Images/ncc3.webp";
 import Loyola from "../../Images/loyola.png";
 
-const Logos = () => (
-  <div className="myLogos">
+const Logos = ({colorType}) => (
+  <div className={`myLogos ${colorType === "secondary" ? 'secondaryColor' : ''}`}>
     <Container fluid>
       <Row className="logoGroup">
         <Col xs={6} sm={4} md={2}><Image className="logoImage" src={Loyola} /></Col>

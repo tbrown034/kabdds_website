@@ -25,7 +25,7 @@ const HomeHero = () => {
             appointment today!
           </Card.Text>
           <div className="btnGroup">
-            <Button animated id="apptBtn">
+            <Button animated className="apptBtn">
               <Button.Content visible>
                 <Icon name="calendar" /> Request an Appointment Online
               </Button.Content>

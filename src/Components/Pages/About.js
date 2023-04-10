@@ -1,9 +1,9 @@
 import React from "react";
 import HeroBanner from "../HeroBanner";
-import Meet from "../SubComponents/AboutMeet";
+import Quote from "../SubComponents/AboutQuote";
 import Hero from "../SubComponents/AboutHero";
 import Logos from "../SubComponents/AboutLogos"
-import CV from "../SubComponents/AboutCv"
+import Experience from "../SubComponents/AboutExperience"
 import DYK from "../SubComponents/AboutDYK"
 import Footer from "../Footer"
 import More from "../SubComponents/AboutMore"
@@ -17,16 +17,17 @@ const About = () => {
   return (
     <div className="myAbout">
      <Hero />
+     <HeroBanner colorType={"primary"} />
+     <Experience />
+
+      <Quote />
       
-      <Meet />
-      <HeroBanner colorType={"primary"} />
-      <CV />
       
       <DYK />
       <More />
-      <Logos />
+      <Logos colorType={"primary"}/>
     
-      <Footer colorType={"secondary"}/>
+      <Footer colorType={"primary"}/>
 
 
       

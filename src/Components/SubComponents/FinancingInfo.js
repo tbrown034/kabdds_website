@@ -8,7 +8,7 @@ const FinancingInfo = () => {
     <div className="myFinancingInfo ">
       <Container fluid>
         <Row>
-          <Col >
+          <Col className="personalText">
           <h1 className="center-text">Financing Made Easy</h1>
           <div className="center-text">
         <FontAwesomeIcon 

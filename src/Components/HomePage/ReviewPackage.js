@@ -4,20 +4,19 @@ import smile from "../../Images/smile3.webp"
 
 const ReviewPackage = () => {
   return (
-    <>
-    <div className="secondContainer">
+    <div className=" secondaryColor">
       <Container  fluid>
         <Row className="align-items-center">
-          <Col  lg={7} >
+          <Col className="bottomPadding" lg={7} >
             <ReviewSlider />
           </Col>
-          <Col style={{ padding: 0 }} lg={5}>
+          <Col className="noPadding border">
             <Image fluid="md" className="homeImage" src={smile}  />
           </Col>
         </Row>
       </Container>
       </div>
-    </>
+    
     
   );
 };

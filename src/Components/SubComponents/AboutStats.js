@@ -5,7 +5,6 @@ const Statistics = () => (
   
   <div className="myStats quote-card center-text">
      <h2>'Not Every Dentist Does This'</h2>
-     <h5>The Requirements</h5>
    
     <Statistic.Group className="statGroup" >
       <Statistic>

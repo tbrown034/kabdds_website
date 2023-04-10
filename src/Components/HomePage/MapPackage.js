@@ -7,22 +7,22 @@ const myAddress = "1296 Rickert Dr #300, Naperville, IL 60540";
 
 const MapPackage = () => {
   return (
-    <>
-      <div className="myMapPackage">
+
+      <div className="defaultPadding tertiaryColor">
         <Container fluid>
           <Row>
-            <Col className="colMap" lg={9}>
+            <Col className="leftImage" lg={8}>
               <Map />
             </Col>
-            <Col className="colText" lg={3}>
+            <Col className="textContainer" >
               <h1>
               Conveniently Located in the Heart of Napeville, IL.
               </h1>
-              <h2>
+              <p>
                 We have been located on the third floor of the FifthThird bank,
                 located at <span className="address">{myAddress}</span>, for the
                 past 30 years. Come visit us!{" "}
-              </h2>
+              </p>
               <div className="btnGroup">
                 <Button id="directButton" animated>
                   <Button.Content visible>
@@ -38,7 +38,7 @@ const MapPackage = () => {
           </Row>
         </Container>
       </div>
-    </>
+
   );
 };
 

@@ -1,14 +1,15 @@
 /*    color and font themes     */
+
 :root {
   /* color theme  */
-  --primary-color: #1e3d58;
-  --secondary-color: #375a62;
-  --tertiary-color: #e0ece4;
-  --quaternary-color: #e2eef2;
-  --primary-bg-color: #edf3f3;
-  --secondary-bg-color: #dbe1e8;
-  --tertiary-bg-color: #e0ece4;
-  --quaternary-bg-color: #9ac6c5;
+  --primary-color: #3c6478;
+  --secondary-color: #5b8a9f;
+  --tertiary-color: #cdd8de;
+  --quaternary-color: #cdd6e1;
+  --primary-bg-color: #f0f4f6;
+  --secondary-bg-color: #dfe7ec;
+  --tertiary-bg-color: #f5f8f9;
+  --quaternary-bg-color: #b3c7d3;
   /* font theme */
   --primary-font: "Lato", sans-serif;
   --secondary-font: "Roboto Slab", serif;
@@ -42,14 +43,83 @@ a {
   text-align: center;
 }
 
-.side-padding {
-  padding-left: 10%;
-  padding-right: 10%;
+
+
+.defaultPadding {
+  padding: 25px;
 }
 
-.padding-bottom {
+.noPadding {
+  padding: 0px !important;
+}
+
+.leftImage {
+  padding: 0px 25px 0px 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+
+
+}
+
+
+.rightImage {
+  padding: 0px 0px 0px 25px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bottomPadding {
   padding-bottom: 10px;
 }
+
+.secondaryColor {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.primaryColor {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.tertiaryColor {
+  background-color: var(--tertiary-bg-color) !important;
+}
+
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  padding-right: 2%;
+
+
+
+
+}
+
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 5%;
+}
+
+.reviewHolder {
+  padding: 30px 10% 30px 10%;
+
+}
+
+.homeImage {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+
+}
+
 
 /* Buttons */
 button.ui.button {
@@ -68,17 +138,30 @@ button.ui.button:hover {
   justify-content: center;
 }
 
+
+/* Misc Styles  */
+
+.curved-underline {
+  position: relative;
+  color: var(--quaternary-color);
+}
+
+.curve {
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100%;
+  background-color: var(--quaternary-bg-color);
+  border-radius: 0 0 80% 80% / 0 0 100% 100%;
+}
+
 .signature {
   font-family: cursive;
 }
 
-.secondaryColor {
-  background-color: var(--secondary-bg-color) !important;
-}
-
-/*    Pages    */
-
-/* Top Hero Display */
+/* Top Hero Display - across pages */
 
 .card-img {
   object-fit: cover;
@@ -99,53 +182,12 @@ button.ui.button:hover {
   padding: 5px 33% 5px 0%;
 }
 
-.secondContainer {
-  background-color: var(--secondary-bg-color);
-}
 
-.colRight {
-  padding-left: 0;
-}
 
-/* Misc Styles  */
-
-.curved-underline {
-  position: relative;
-  color: var(--quaternary-color);
-}
-
-.curve {
-  position: absolute;
-  bottom: -6px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 100%;
-  background-color: var(--quaternary-bg-color);
-  border-radius: 0 0 80% 80% / 0 0 100% 100%;
-}
-
-/*       Components        */
+/*       Pages        */
 /* Header  */
 .bg-my-color {
   background-color: var(--primary-bg-color);
-}
-
-/* Home Hero Section */
-
-.myHomeHero .card-img {
-  object-fit: cover;
-  height: 60vh;
-  filter: brightness(50%);
-}
-
-.heroTitle.card-title {
-  font-size: 55px;
-  color: var(--tertiary-color);
-}
-
-.homeImage {
-  border-left: white 3px solid;
 }
 
 /*    HeroBanner    */
@@ -164,27 +206,28 @@ button.ui.button:hover {
   background-color: var(--secondary-bg-color);
 }
 
+/* Home */
+
+/* Home Hero Section */
+
+.myHomeHero .card-img {
+  object-fit: cover;
+  height: 60vh;
+  filter: brightness(50%);
+}
+
+.heroTitle.card-title {
+  font-size: 55px;
+  color: var(--tertiary-color);
+}
+
+
+
 /* ReviewSlider */
 
-.reviewTitle {
-  text-align: center;
-  padding-top: 8px;
-  padding-bottom: 14px;
-}
 
-.reviewHolder {
-  padding: 4px 30px 30px 30px;
-  text-align: center;
-}
 
-.reviewName {
-  color: var(--primary-color);
-  padding-bottom: 6px;
-}
 
-.reviewCity {
-  color: var(--primary-color);
-}
 
 /* ServiceBanner */
 
@@ -236,29 +279,12 @@ button.ui.button:hover {
 /* 
 Map  */
 
-.myMapPackage {
-  background-color: var(--secondary-bg-color);
-  color: var(--primary-color);
-  padding: 20px;
-}
 
-.colText {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 
-.colMap {
-  padding-top: 10px;
-}
 
-#directButton {
-  margin-bottom: 10px;
-}
 
-.address {
-  text-decoration: underline;
-}
+
+
 
 /* Promotions  */
 
@@ -316,13 +342,7 @@ Map  */
   padding-bottom: 20px;
 }
 
-.next {
-  color: var(--quaternary-color);
-}
 
-.bold {
-  color: whitesmoke;
-}
 
 .myFellow {
   background-color: var(--secondary-bg-color);
@@ -333,20 +353,13 @@ Map  */
   background-color: var(--secondary-bg-color);
 }
 
-.myAboutMeet {
-  background-color: var(--primary-bg-color);
-  padding: 25px 5% 25px 5%;
-}
+
 
 .bottom-padding {
   padding-bottom: 15px;
 }
 
-.myLogos {
-  padding: 100px 25px 100px 25px;
 
-  background-color: var(--secondary-bg-color);
-}
 
 .logoImage {
   width: 100%;
@@ -363,10 +376,7 @@ Map  */
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
-.myAboutCv {
-  background-color: var(--primary-bg-color);
-  padding: 25px;
-}
+
 
 .icon {
   transition: transform 0.3s ease-in-out;
@@ -380,11 +390,7 @@ Map  */
   background-color: whitesmoke !important;
 }
 
-.secondaryImage {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
+
 
 .myStats {
   display: flex;
@@ -402,22 +408,43 @@ Map  */
   height: 100%;
 }
 
-.myAboutMore {
-  background-color: var(--primary-bg-color);
-  padding: 25px 5% 25px 5%;
-}
 
-.personalText {
+
+.textBox {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  background-color: var(--secondary-bg-color);
+
+}
+
+.myLogos {
+  padding: 100px 25px 100px 25px;
+
+  background-color: var(--quaternary-bg-color);
+}
+
+.myAboutMeet {
+  padding: 25px;
+  background-color: var(--primary-bg-color);
 }
 
 .myDYK {
-  padding: 50px 5% 50px 5%;
-  background-color: var(--secondary-bg-color);
+  padding:25px;
+  background-color: var(--quaternary-bg-color);
 }
+
+.myAboutCv {
+  background-color: var(--tertiary-bg-color);
+  padding: 25px;
+}
+
+.myAboutMore {
+  background-color: var(--tertiary-bg-color);
+  padding: 25px;
+}
+
 
 .pull-quote {
   font-family: "Roboto", sans-serif;
@@ -431,7 +458,7 @@ Map  */
 }
 
 .quote-card {
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
@@ -459,13 +486,13 @@ Map  */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 
 /* Financing */
 
 .myFinancingInfo {
-  background-color: var(--primary-bg-color);
+  background-color: var(--tertiary-bg-color);
   padding: 25px 5% 25px 5%;
 }
 
@@ -477,6 +504,31 @@ Map  */
 
 /* Media Query  */
 @media (max-width: 767px) {
+/* 
+  .leftImage {
+    padding: 0px 25px 0px 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+  }
+
+  .secondaryImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .rightImage {
+    padding: 0px 0px 0px 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  } */
+
+
+
+
   .homeImage {
     border-top: white 3px solid;
   }
@@ -507,7 +559,7 @@ Map  */
     flex-wrap: wrap;
   }
 
-  #apptBtn {
+  .apptBtn {
     margin-bottom: 10px;
   }
 
