@@ -17,27 +17,24 @@
 
 /*    Global     */
 
-h1 { 
+h1 {
   font-size: 60px;
-  color: var(--primary-color);}
-
-h2 {
-  font-size:25px;
-  color: var(--secondary-color);
-  
-
+  color: var(--primary-color);
 }
 
-
+h2 {
+  font-size: 25px;
+  color: var(--secondary-color);
+}
 
 p {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   color: var(--primary-color);
   font-size: 30px;
 }
 
 a {
-  text-decoration: none ;
+  text-decoration: none;
 }
 
 /* Utility Classes  */
@@ -47,7 +44,7 @@ a {
 
 .side-padding {
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
 }
 
 .padding-bottom {
@@ -73,7 +70,6 @@ button.ui.button:hover {
 
 .signature {
   font-family: cursive;
-
 }
 
 .secondaryColor {
@@ -95,25 +91,17 @@ button.ui.button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
-
 
 .card-text {
   font-size: 25px;
   color: var(--tertiary-color);
   padding: 5px 33% 5px 0%;
-;
 }
-
 
 .secondContainer {
   background-color: var(--secondary-bg-color);
-
 }
-
-
 
 .colRight {
   padding-left: 0;
@@ -137,7 +125,6 @@ button.ui.button:hover {
   border-radius: 0 0 80% 80% / 0 0 100% 100%;
 }
 
-
 /*       Components        */
 /* Header  */
 .bg-my-color {
@@ -157,16 +144,11 @@ button.ui.button:hover {
   color: var(--tertiary-color);
 }
 
-
 .homeImage {
   border-left: white 3px solid;
-
 }
 
-
-
 /*    HeroBanner    */
-
 
 .ui.horizontal.segments.heroSegment {
   color: var(--primary-color);
@@ -184,18 +166,11 @@ button.ui.button:hover {
 
 /* ReviewSlider */
 
-
-
-
-
-
 .reviewTitle {
   text-align: center;
   padding-top: 8px;
   padding-bottom: 14px;
 }
-
-
 
 .reviewHolder {
   padding: 4px 30px 30px 30px;
@@ -218,7 +193,6 @@ button.ui.button:hover {
   color: var(--primary-color);
   text-align: center;
   padding: 20px 20px 40px 20px;
-
 }
 
 .bannerContainer .myH2 {
@@ -233,8 +207,6 @@ button.ui.button:hover {
   filter: brightness(0.4);
 }
 
-
-
 .serviceTitle.card-title {
   font-size: 40px;
   color: var(--tertiary-color);
@@ -247,23 +219,19 @@ button.ui.button:hover {
   justify-content: space-evenly;
   align-items: flex-start;
   color: var(--tertiary-color);
-  ;
 }
 
 #serviceLinkHoldr a {
-
   font-size: 25px;
   color: var(--tertiary-color);
   text-decoration: none;
 }
-
 
 #serviceLinkHoldr a:hover {
   font-size: 25px;
   color: var(--tertiary-color);
   text-decoration: underline;
 }
-
 
 /* 
 Map  */
@@ -274,13 +242,10 @@ Map  */
   padding: 20px;
 }
 
-
-
 .colText {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-;
 }
 
 .colMap {
@@ -293,11 +258,7 @@ Map  */
 
 .address {
   text-decoration: underline;
-  
 }
-
-
-
 
 /* Promotions  */
 
@@ -312,8 +273,6 @@ Map  */
   padding: 20px;
 }
 
-
-
 .footerApptBox {
   display: flex;
   flex-direction: column;
@@ -322,21 +281,16 @@ Map  */
   margin-bottom: 20px;
 }
 
-.threeBtnGroup  {
+.threeBtnGroup {
   padding: 10px 0px 0px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .threeBtnGroup > .ui.button {
   margin-right: 10px;
-
-
 }
-
-
 
 .myFooter h3 {
   text-decoration: underline;
@@ -350,7 +304,7 @@ Map  */
 .copyright {
   text-align: center;
   padding: 20px 0px 10px 0px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*                     Pages               */
@@ -372,10 +326,8 @@ Map  */
 
 .myFellow {
   background-color: var(--secondary-bg-color);
-  padding: 25px
+  padding: 25px;
 }
-
-
 
 .quoteCard {
   background-color: var(--secondary-bg-color);
@@ -390,15 +342,10 @@ Map  */
   padding-bottom: 15px;
 }
 
-
-
 .myLogos {
   padding: 100px 25px 100px 25px;
- 
-  background-color: var(--secondary-bg-color); 
 
-
-
+  background-color: var(--secondary-bg-color);
 }
 
 .logoImage {
@@ -417,12 +364,9 @@ Map  */
 }
 
 .myAboutCv {
-  background-color: var(--primary-bg-color); 
+  background-color: var(--primary-bg-color);
   padding: 25px;
-
-
 }
-
 
 .icon {
   transition: transform 0.3s ease-in-out;
@@ -432,10 +376,6 @@ Map  */
   transform: scale(1.2);
 }
 
-
-
-
-
 .imageContain {
   background-color: whitesmoke !important;
 }
@@ -444,8 +384,6 @@ Map  */
   height: 100%;
   width: 100%;
   object-fit: cover;
-
-
 }
 
 .myStats {
@@ -456,7 +394,6 @@ Map  */
   width: 100%;
   background-color: var(--tertiary-bg-color);
   padding: 20px;
- 
 }
 
 .statGroup {
@@ -468,9 +405,6 @@ Map  */
 .myAboutMore {
   background-color: var(--primary-bg-color);
   padding: 25px 5% 25px 5%;
-
-
-
 }
 
 .personalText {
@@ -480,29 +414,13 @@ Map  */
   justify-content: center;
 }
 
-
-
-
-
-  
-
-
- 
-
-
-
-
-
-
-
-
 .myDYK {
   padding: 50px 5% 50px 5%;
   background-color: var(--secondary-bg-color);
 }
 
 .pull-quote {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
 
   font-size: 1.5em;
@@ -512,20 +430,15 @@ Map  */
   text-align: center;
 }
 
-
-
-
-
-
 .quote-card {
   background-color: var(--primary-bg-color);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-padding: 20px;  text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .quote-text {
-
   margin-bottom: 20px;
 }
 
@@ -534,7 +447,7 @@ padding: 20px;  text-align: center;
   height: auto;
   display: block;
   margin: 0 auto;
-  paddng-top: 15px;
+  padding-top: 15px;
 }
 
 .attribution {
@@ -547,29 +460,23 @@ padding: 20px;  text-align: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: var(--primary-bg-color);
-
 }
-
 
 /* Financing */
 
 .myFinancingInfo {
   background-color: var(--primary-bg-color);
   padding: 25px 5% 25px 5%;
-
 }
 
 .promo {
   background-color: var(--quaternary-bg-color);
   color: var(--primary-color);
   padding: 20px 0;
-
 }
-
 
 /* Media Query  */
 @media (max-width: 767px) {
-
   .homeImage {
     border-top: white 3px solid;
   }
@@ -589,13 +496,10 @@ padding: 20px;  text-align: center;
   .threeBtnGroup {
     display: flex;
     flex-direction: column;
-
   }
 
   .threeBtnGroup > .ui.button {
     margin-bottom: 10px;
-  
-  
   }
 
   .btnGroup {
@@ -603,25 +507,15 @@ padding: 20px;  text-align: center;
     flex-wrap: wrap;
   }
 
-  #apptBtn  {
+  #apptBtn {
     margin-bottom: 10px;
-
   }
-
-
 
   .heroTitle.card-title {
     font-size: 40px;
-  
   }
-  
-  
-  
-  
+
   .card-text {
     font-size: 20px;
-
   }
-
 }
-
