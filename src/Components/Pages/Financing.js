@@ -1,8 +1,13 @@
 import React from "react";
-import  HeroBanner from "../HeroBanner";
-import  FinancingHero from "../SubComponents/FinancingHero";
-import  FinancingInfo from "../SubComponents/FinancingInfo";
-import Footer from "../Footer"
+import  HeroBanner from "../Main/HeroBanner";
+import  Hero from "../SubComponents/FinanceHero";
+import  Info from "../SubComponents/FinanceInfo";
+import  Promo from "../SubComponents/FinancePromo";
+import  Insurance from "../SubComponents/FinanceInsurance";
+
+
+
+import Footer from "../Main/Footer"
 
 
 
@@ -12,11 +17,14 @@ import Footer from "../Footer"
 const Financing = () => {
   return (
     <div className="myFinancing">
-      <FinancingHero />
-      <FinancingInfo />
-    
-      <HeroBanner colorType={"secondary"}/>
-      <Footer />
+      <Hero />
+      <HeroBanner colorType={"primary"}/>
+
+      <Info />
+     
+      <Insurance />
+      <Promo />
+      <Footer colorType={"secondary"} />
       </div>
   );
 };

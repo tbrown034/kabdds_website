@@ -1,25 +1,25 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Map from "../Map";
+import Map from "../Main/Map";
 import { Button, Icon } from "semantic-ui-react";
 import CopyAddress from "../Buttons/CopyAddress";
 
-const myAddress = "1296 Rickert Dr #300, Naperville, IL 60540";
+const myAddress = "1296 Rickert Drive, Suite 300, Naperville, IL 60540";
 
 const MapPackage = () => {
   return (
 
-      <div className="defaultPadding tertiaryColor">
+      <div className="defaultPadding primaryColor">
         <Container fluid>
           <Row>
-            <Col className="leftImage" lg={8}>
+            <Col xl="8">
               <Map />
             </Col>
-            <Col className="textContainer" >
+            <Col className="textBox">
               <h1>
-              Conveniently Located in the Heart of Napeville, IL.
+              Located in the Heart of Napeville, IL.
               </h1>
               <p>
-                We have been located on the third floor of the FifthThird bank,
+                We are located on the third floor of the Fifth Third Bank,
                 located at <span className="address">{myAddress}</span>, for the
                 past 30 years. Come visit us!{" "}
               </p>

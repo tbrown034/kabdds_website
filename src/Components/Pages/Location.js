@@ -1,7 +1,8 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import  HeroBanner from "../HeroBanner";
+import  HeroBanner from "../Main/HeroBanner";
 import bank from "../../Images/bank.jpeg";
+
 
 
 

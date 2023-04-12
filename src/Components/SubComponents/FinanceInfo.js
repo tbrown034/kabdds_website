@@ -5,22 +5,22 @@ import Reception from "../../Images/Reception.jpeg"
 
 const FinancingInfo = () => {
   return (
-    <div className="myFinancingInfo ">
+    <div className="defaultPadding tertiaryColor">
       <Container fluid>
         <Row>
-          <Col className="personalText">
+          <Col className="textBox">
           <h1 className="center-text">Financing Made Easy</h1>
-          <div className="center-text">
+          
         <FontAwesomeIcon 
           icon={faPiggyBank}
           size="8x"
-          className="center-text icon fa-bounce"
+          className="center-text icon bounceIcon fa-bounce"
           style={{
             animationDuration: "2s",
             animationIterationCount: "1",
           }}
         />
-        </div>
+        
         <p >
           We promise to give you the most affordable dental care we can offer.
           We can also assist you in arranging a financing program tailored to
@@ -35,8 +35,8 @@ const FinancingInfo = () => {
           
           </Col>
 
-          <Col xl="4" className="imageContain">
-          <Image fluid="md" className="secondaryImage" src={Reception} />
+          <Col xl="5" >
+          <Image  fluid="md" className="rightImage" src={Reception} />
 
           </Col>
 

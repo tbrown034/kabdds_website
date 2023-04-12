@@ -9,11 +9,11 @@ import Row from "react-bootstrap/Row";
 
 function ServicesBanner() {
   return (
-    <div className="bannerContainer">
+    <div className="bannerContainer defaultPadding">
      <h1>A Full Service Dentist Office</h1>
      
    
-      <h2>
+      <h2 className="bottom-padding">
         We provide a range of dental services to take the best care of you and
         your family's dental health for life. Whether it's your child's first cleaning or an emergnecy procedure, we got you covered.
       </h2>

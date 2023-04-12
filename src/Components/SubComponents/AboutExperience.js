@@ -18,7 +18,7 @@ const AboutExperience = () => (
           <FontAwesomeIcon
           icon={faTooth}
           size="8x"
-          className="icon fa-bounce"
+          className="icon fa-bounce bounceIcon"
           style={{
             animationDuration: "2s",
             animationIterationCount: "1",

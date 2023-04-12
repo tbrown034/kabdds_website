@@ -1,36 +1,34 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import  HeroBanner from "../Main/HeroBanner";
-import dentist2 from "../../Images/dentist2.jpeg";
+import bank from "../../Images/bank.jpeg";
 
 
 
-
-const Services = () => {
+const LocationHero = () => {
   return (
-    <div className="myServices">
+    
       <Card className="bg-dark">
-        <Card.Img src={dentist2} alt="Keith Brown" />
+        <Card.Img src={bank} alt="insurance" />
         <Card.ImgOverlay className="heroOverlay">
           <Card.Title className="heroTitle">
-            We'll Take Care of Your {" "}
+           Making Dental Care {" "}
             <span className="curved-underline">
-              Teeth.
+            Affordable.
               <span className="curve"></span>
             </span>
           </Card.Title>
 
           <Card.Text>
           
-          Our goal is to have your teeth looking great and free of pain or discomfort in as short a time as possible.
+          Located in the thrid floor of the Fifth Third Bank at 75th St. and Rickert Drive
+
 
           </Card.Text>
 
         </Card.ImgOverlay>
       </Card>
-      <HeroBanner />
-      </div>
+    
   );
 };
 
-export default Services;
+export default LocationHero;

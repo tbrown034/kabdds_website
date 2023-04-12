@@ -1,12 +1,13 @@
 import React from "react";
-import HeroBanner from "../HeroBanner";
+import HeroBanner from "../Main/HeroBanner";
 import Quote from "../SubComponents/AboutQuote";
 import Hero from "../SubComponents/AboutHero";
 import Logos from "../SubComponents/AboutLogos"
 import Experience from "../SubComponents/AboutExperience"
 import DYK from "../SubComponents/AboutDYK"
-import Footer from "../Footer"
+import Footer from "../Main/Footer"
 import More from "../SubComponents/AboutMore"
+
 
 
 
@@ -26,6 +27,7 @@ const About = () => {
       <DYK />
       <More />
       <Logos colorType={"primary"}/>
+
     
       <Footer colorType={"primary"}/>
 

@@ -6,7 +6,9 @@
   --secondary-color: #5b8a9f;
   --tertiary-color: #cdd8de;
   --quaternary-color: #cdd6e1;
-  --primary-bg-color: #f0f4f6;
+
+  
+  --primary-bg-color: #f8fcfd;
   --secondary-bg-color: #dfe7ec;
   --tertiary-bg-color: #f5f8f9;
   --quaternary-bg-color: #b3c7d3;
@@ -19,7 +21,7 @@
 /*    Global     */
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: var(--primary-color);
 }
 
@@ -31,7 +33,7 @@ h2 {
 p {
   font-family: "Merriweather", serif;
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 27px;
 }
 
 a {
@@ -46,7 +48,7 @@ a {
 
 
 .defaultPadding {
-  padding: 25px;
+  padding: 35px 25px 35px 25px;
 }
 
 .noPadding {
@@ -87,6 +89,10 @@ a {
   background-color: var(--tertiary-bg-color) !important;
 }
 
+.quadColor {
+  background-color: var(--quaternary-bg-color) !important;
+}
+
 
 .textContainer {
   display: flex;
@@ -114,10 +120,14 @@ a {
 }
 
 .homeImage {
-  object-fit: fill;
+  object-fit: cover;
   height: 100%;
   width: 100%;
+  border-left: whitesmoke 10px solid;
+}
 
+.homeImageContainer {
+  padding-right: 0
 }
 
 
@@ -196,6 +206,7 @@ button.ui.button:hover {
   color: var(--primary-color);
   background-color: var(--primary-bg-color);
   text-align: center;
+  padding: 25px;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -232,10 +243,9 @@ button.ui.button:hover {
 /* ServiceBanner */
 
 .bannerContainer {
-  background-color: var(--primary-bg-color);
+  background-color: var(--tertiary-bg-color);
   color: var(--primary-color);
   text-align: center;
-  padding: 20px 20px 40px 20px;
 }
 
 .bannerContainer .myH2 {
@@ -296,16 +306,18 @@ Map  */
 
 .myFooter {
   background-color: var(--primary-bg-color);
-  padding: 20px;
+  padding: 25px;
 }
 
-.footerApptBox {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+.myApt {
+  background-color: var(--quaternary-bg-color);
+  padding: 25px;
+
 }
+
+
+
+
 
 .threeBtnGroup {
   padding: 10px 0px 0px 0px;
@@ -353,6 +365,9 @@ Map  */
   background-color: var(--secondary-bg-color);
 }
 
+.aboutQuote {
+margin: 0px 25px 25px 25px}
+
 
 
 .bottom-padding {
@@ -381,6 +396,12 @@ Map  */
 .icon {
   transition: transform 0.3s ease-in-out;
 }
+
+.bounceIcon {
+  padding: 10px 0 10px 0;
+}
+
+
 
 .icon:hover {
   transform: scale(1.2);
@@ -425,14 +446,16 @@ Map  */
   background-color: var(--quaternary-bg-color);
 }
 
-.myAboutMeet {
-  padding: 25px;
-  background-color: var(--primary-bg-color);
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
-.myDYK {
-  padding:25px;
-  background-color: var(--quaternary-bg-color);
+.credit {
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 .myAboutCv {
@@ -497,41 +520,62 @@ Map  */
 }
 
 .promo {
-  background-color: var(--quaternary-bg-color);
+  background-color: var(--secondary-bg-color);
   color: var(--primary-color);
-  padding: 20px 0;
+  padding: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.promo-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.promo-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
 
 /* Media Query  */
 @media (max-width: 767px) {
-/* 
-  .leftImage {
-    padding: 0px 25px 0px 0px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 
+  /* Home */
+
+  .ui.horizontal.segments.heroSegment {
+    color: var(--primary-color);
+    background-color: var(--primary-bg-color);
+    text-align: center;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
-
-  .secondaryImage {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .rightImage {
-    padding: 0px 0px 0px 25px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  } */
-
-
-
 
   .homeImage {
-    border-top: white 3px solid;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-left: none;
   }
+
+  .homeImageContainer {
+    padding-right: .1px;
+    padding-left: .1px;
+  }
+  
+
+
+
+
+
+
+ 
 
   .experience {
     padding-top: 20px;

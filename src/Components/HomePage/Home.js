@@ -2,8 +2,9 @@ import HomeHero from "./HomeHero"
 import  MapPackage from "./MapPackage"
 import  ReviewPackage from "./ReviewPackage"
 import  ServiceBanner from "./ServicesBanner"
-import  HeroBanner from "../HeroBanner";
-import Footer from "../Footer"
+import  HeroBanner from "../Main/HeroBanner";
+import Footer from "../Main/Footer"
+
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
             <ReviewPackage />
             <ServiceBanner />
             <MapPackage />
-            <Footer colorType={"primary"}/>
+            <Footer colorType={"secondary"}/>
         </div>
     )
 }
