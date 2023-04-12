@@ -8,7 +8,7 @@ const AboutExperience = () => (
   <div className="defaultPadding tertiaryColor">
     <Container fluid>
       <Row>
-        <Col  xl="4">
+        <Col className="leftImageContainer" xl="4">
 
           <Image fluid="md" className="leftImage" src={dentist} />
         </Col>

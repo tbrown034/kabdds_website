@@ -108,10 +108,7 @@ a {
 
 
 .textBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 25px 5%;
+  padding: 25px 5% 25px 5%;
 }
 
 .reviewHolder {
@@ -124,6 +121,7 @@ a {
   height: 100%;
   width: 100%;
   border-left: whitesmoke 10px solid;
+  
 }
 
 .homeImageContainer {
@@ -407,9 +405,7 @@ margin: 0px 25px 25px 25px}
   transform: scale(1.2);
 }
 
-.imageContain {
-  background-color: whitesmoke !important;
-}
+
 
 
 
@@ -568,6 +564,45 @@ margin: 0px 25px 25px 25px}
     padding-right: .1px;
     padding-left: .1px;
   }
+
+
+
+  .leftImageContainer {
+    min-width: 1px;
+    padding: 0px 0px 20px 0px;
+  }
+
+  .rightImageContainer {
+    min-width: 1px;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  
+  .rightImage {
+    padding: 0px;;
+
+  }
+
+  .leftImage {
+    padding: 0px;
+   
+  }
+
+  /* Footer  */
+
+  .myApt h1 {
+    font-size: 40px;
+  } 
+
+  .myFooter p {
+    font-size: 15px;
+  } 
+
+  .footerCols {
+    padding-bottom: 20px;
+  }
+
+
   
 
 

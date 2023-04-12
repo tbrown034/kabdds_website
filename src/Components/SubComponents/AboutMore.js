@@ -6,7 +6,7 @@ const AboutMore = () => {
     <div className="defaultPadding tertiaryColor">
       <Container fluid>
         <Row>
-          <Col className=" textBox" xl="6">
+          <Col className="textBox" xl="6">
             <h1>Outside the Office</h1>
             <p>
               When Dr. Brown is not helping his patients, he loves spending time
@@ -14,7 +14,7 @@ const AboutMore = () => {
               is also an avid fisherman and a faithful Bears and Cubs fan.{" "}
             </p>
           </Col>
-          <Col>
+          <Col className="rightImageContainer">
             <Image fluid="md" className="rightImage" src={dad} />
           </Col>
         </Row>

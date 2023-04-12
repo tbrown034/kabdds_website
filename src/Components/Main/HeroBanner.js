@@ -34,7 +34,7 @@ const HeroBanner = ({colorType}) => {
       
 
       {data.map((item) => (
-        <Segment   key={item.id}>
+        <Segment  key={item.id}>
           <Icon name={item.icon} size="big" />
           <p>{item.title}</p>
           <Button animated id="apptBtn">

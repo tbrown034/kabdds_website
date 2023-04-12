@@ -35,7 +35,7 @@ const FinancingInfo = () => {
           
           </Col>
 
-          <Col xl="5" >
+          <Col xl="5" className="rightImageContainer" >
           <Image  fluid="md" className="rightImage" src={Reception} />
 
           </Col>

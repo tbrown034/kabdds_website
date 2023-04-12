@@ -11,11 +11,11 @@ const Footer = ({ colorType }) => {
  
   return (
     <div className={`myFooter ${colorType === "secondary" ? "secondaryColor" : ""}`}>
-      <Container fluid className="footer-container" >
+      <Container fluid >
         <Appointment colorType={"tertiary"}  />
-        <Row className="defaultPadding">
+        <Row className="defaultPadding center-text">
         
-          <Col>
+          <Col className="footerCols" lg={4} xs={12}>
             <h3>Dental Services</h3>
             <p>
               <a href="/services">General Dentistry</a>
@@ -29,7 +29,7 @@ const Footer = ({ colorType }) => {
 <p>
             <a href="/services">FAQS</a>
             </p></Col>
-          <Col>
+          <Col className="footerCols" lg={4} xs={12}>
             <h3>Office Hours</h3>
             <p>
               <Icon name="calendar" />
@@ -48,7 +48,7 @@ const Footer = ({ colorType }) => {
               Weekends: 5 p.m. to 9 p.m.
             </p>{" "}
           </Col>
-          <Col>
+          <Col lg={4} xs={12}>
             {" "}
             <h3>Contact</h3>
             <p>
