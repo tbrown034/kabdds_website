@@ -25,11 +25,13 @@ const About = () => {
       
       
       <DYK />
+
       <More />
       <Logos colorType={"primary"}/>
 
+
     
-      <Footer colorType={"primary"}/>
+      <Footer colorType={"secondary"}/>
 
 
       

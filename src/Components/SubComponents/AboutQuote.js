@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 
 const AboutQuote = () => {
   return (
-    <div className="defaultPadding secondaryColor aboutQuote center-text">
+    <div className="defaultPadding tertiaryColor aboutQuote center-text">
       <Container fluid>
         <h1>Our Dental Philosophy</h1>
         

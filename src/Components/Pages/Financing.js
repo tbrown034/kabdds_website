@@ -3,7 +3,8 @@ import  HeroBanner from "../Main/HeroBanner";
 import  Hero from "../SubComponents/FinanceHero";
 import  Info from "../SubComponents/FinanceInfo";
 import  Promo from "../SubComponents/FinancePromo";
-import  Insurance from "../SubComponents/FinanceInsurance";
+import  Insure from "../SubComponents/FinanceInsure";
+import  Tax from "../SubComponents/FinanceTax";
 
 
 
@@ -21,9 +22,11 @@ const Financing = () => {
       <HeroBanner colorType={"primary"}/>
 
       <Info />
-     
-      <Insurance />
       <Promo />
+      {/* <Tax /> */}
+      <Insure />
+     
+      
       <Footer colorType={"secondary"} />
       </div>
   );
