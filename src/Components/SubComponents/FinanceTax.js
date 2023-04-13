@@ -1,32 +1,33 @@
-import { Icon } from 'semantic-ui-react';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Image } from "react-bootstrap";
+import fsa  from "../../Images/fsa1.jpeg";
 
-const FinanceTax = () => (
-  <div className='defaultPadding quadColor'>
+const FinanceTax = () => {
+  return (
+    <div className="defaultPadding tertiaryColor">
     <Container fluid>
       <Row>
-        <Col lg='9'>
-          <h1 className='center-text'>Tax-Advantaged Accounts</h1>
+        <Col className="leftImageContainer" xl="4">
+
+          <Image fluid="md" className="leftImage" src={fsa} />
+        </Col>
+        <Col className="textBox ">
+
+          <h1 className="center-text bottomPadding" >Did You Know?</h1>
+         
           <p>
-            Did you know you can use Health Savings Accounts (HSAs) and Flexible Spending Accounts (FSAs) to cover your dental expenses? These accounts offer tax benefits that can help you save money while accessing the dental care you need.
+          Flexible Spending Arrangements (FSAs) and other tax-advantaged accounts, such as Health Savings Accounts (HSAs), can be used to cover a wide range of dental expenses, making dental care more affordable for individuals and families. These accounts allow you to set aside pre-tax dollars to pay for eligible medical and dental expenses, ultimately saving you money by reducing your taxable income.
           </p>
           <p>
-            By using an HSA or FSA, you can set aside pre-tax dollars to pay for eligible dental expenses, reducing your taxable income and potentially lowering your tax bill.
+          Eligible dental expenses typically include preventive care, diagnostic services, treatments, and procedures that are deemed medically necessary, such as cleanings, fillings, extractions, and braces.
           </p>
-          <p>
-            It's important to check with your plan administrator to determine which dental procedures are eligible for reimbursement from your HSA or FSA. Typically, preventive and diagnostic services, restorative treatments, and orthodontics are covered, but cosmetic procedures may not be eligible.
-          </p>
-          <div className='quote-card'>
-            <p className='quote-text'>
-              <Icon name='quote left' />
-              Take advantage of tax savings while ensuring your oral health is a top priority. Consult your plan administrator to learn more about how HSAs and FSAs can be used for your dental care.
-              <Icon name='quote right' />
-            </p>
-          </div>
+      
         </Col>
       </Row>
     </Container>
   </div>
-);
+  );
+};
+
+
 
 export default FinanceTax;

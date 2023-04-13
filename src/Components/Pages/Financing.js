@@ -23,8 +23,9 @@ const Financing = () => {
 
       <Info />
       <Promo />
-      {/* <Tax /> */}
+     
       <Insure />
+      <Tax />
      
       
       <Footer colorType={"secondary"} />
