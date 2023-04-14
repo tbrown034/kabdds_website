@@ -5,6 +5,7 @@ import Location from "./Components/Pages/Location";
 import Contact from "./Components/Pages/Contact";
 import Services from "./Components/Pages/Services";
 import FAQs from "./Components/Pages/FAQs";
+import Appointment from './Components/Pages/Appointment';
 
 
 
@@ -21,6 +22,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/financing" element={<Financing />} />
+        <Route path="/appointment" element={<Appointment />} />
+
         <Route path="/location" element={<Location />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />

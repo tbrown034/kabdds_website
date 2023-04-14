@@ -5,14 +5,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Icon } from "semantic-ui-react";
-import Appointment from "./Appointment";
+import CallToAction from "./CallToAction";
 
 const Footer = ({ colorType }) => {
  
   return (
     <div className={`myFooter ${colorType === "secondary" ? "secondaryColor" : ""}`}>
       <Container fluid >
-        <Appointment colorType={"tertiary"}  />
+        <CallToAction colorType={"tertiary"}  />
         <Row className="defaultPadding center-text">
         
           <Col className="footerCols" lg={4} xs={12}>

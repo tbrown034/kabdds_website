@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { Button, Icon } from "semantic-ui-react";
 
-const Appointment = ({ colorType }) => {
+const CallToAction = ({ colorType }) => {
   const handleClick = () => {
     const confirmed = window.confirm("Are you sure you want to call?");
     if (confirmed) {
@@ -50,5 +50,5 @@ const Appointment = ({ colorType }) => {
   );
 };
 
-export default Appointment
+export default CallToAction
 
