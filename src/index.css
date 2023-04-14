@@ -7,7 +7,6 @@
   --tertiary-color: #cdd8de;
   --quaternary-color: #cdd6e1;
 
-  
   --primary-bg-color: #f8fcfd;
   --secondary-bg-color: #dfe7ec;
   --tertiary-bg-color: #f5f8f9;
@@ -144,7 +143,25 @@ button.ui.button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
+
+
+.locationGroup {
+  display: flex;
+  justify-content: center;
+
+}
+
+.wideButton {
+  width: 33% ;
+  padding: 20px;
+}
+
+
+
+
+
 
 
 /* Misc Styles  */
@@ -189,6 +206,8 @@ button.ui.button:hover {
   color: var(--tertiary-color);
   padding: 5px 33% 5px 0%;
 }
+
+
 
 
 
@@ -691,6 +710,8 @@ Map  */
     display: flex;
     flex-wrap: wrap;
   }
+
+  
 
   .apptBtn {
     margin-bottom: 10px;
