@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css';

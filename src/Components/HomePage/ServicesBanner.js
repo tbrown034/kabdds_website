@@ -11,13 +11,10 @@ function ServicesBanner() {
   return (
     <div className="bannerContainer defaultPadding">
      <h1>A Full Service Dentist Office</h1>
-     
-   
       <h2 className="bottom-padding">
         We provide a range of dental services to take the best care of you and
         your family's dental health for life. Whether it's your child's first cleaning or an emergnecy procedure, we got you covered.
       </h2>
-
       <CardGroup>
         <Row xl={3} md={3} sm={1} xs={"auto"} className="g-4">
           <Col>

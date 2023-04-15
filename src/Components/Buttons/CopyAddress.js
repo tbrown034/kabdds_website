@@ -6,16 +6,15 @@ const CopyAddress = ({ address, className }) => {
   };
 
   return (
-   
-      <Button className="wideButton" onClick={handleCopy} animated>
-        <Button.Content visible>
-          <Icon name="copy" />Copy Address
-        </Button.Content>
-        <Button.Content hidden>
-          <Icon name="copy" />
-        </Button.Content>
-      </Button>
- 
+    <Button className="wideButton" onClick={handleCopy} animated>
+      <Button.Content visible>
+        <Icon name="copy" />
+        Copy Address
+      </Button.Content>
+      <Button.Content hidden>
+        <Icon name="copy" />
+      </Button.Content>
+    </Button>
   );
 };
 

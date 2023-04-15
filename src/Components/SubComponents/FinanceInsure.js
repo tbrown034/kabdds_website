@@ -26,8 +26,11 @@ const FinanceInsure = () => {
         </Row>
         <Row className="defaultPadding">
           <Col lg="6" className="Financecard careCredit">
-            <Image fluid="md" className="bottomPadding financeImage" src={care} />
-
+            <Image
+              fluid="md"
+              className="bottomPadding financeImage"
+              src={care}
+            />
             <p>
               Whether you use your healthcare credit card to pay for
               deductibles, or for treatments and procedures not covered by
@@ -35,7 +38,11 @@ const FinanceInsure = () => {
               treatments and procedures you want possible today.
             </p>
             <p className="disclaimer">*Subject to Credit Approval</p>
-            <Button className="soloButton" animated>
+            <Button
+              className="soloButton"
+              animated
+              onClick={() => openLink("https://www.carecredit.com/")}
+            >
               <Button.Content visible>More Info</Button.Content>
               <Button.Content hidden>
                 <Icon name="arrow right" />
@@ -43,8 +50,11 @@ const FinanceInsure = () => {
             </Button>
           </Col>
           <Col className="Financecard">
-            <Image fluid="md" className="bottomPadding financeImage" src={citi} />
-
+            <Image
+              fluid="md"
+              className="bottomPadding financeImage"
+              src={citi}
+            />
             <p>
               Your needs are unique to you, so Citi provides you with different
               medical options from which to choose. Each plan offers

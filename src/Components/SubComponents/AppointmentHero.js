@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import appointment from "../../Images/appointment.webp";
 
-
 const AppointmentHero = () => {
   return (
     <div className="myHomeHero">
@@ -16,16 +15,13 @@ const AppointmentHero = () => {
               <span className="curve"></span>
             </span>
           </Card.Title>
-
           <Card.Text>
-          
-         We are excited to see and help assist you. Your journey to a healthier, brighter smile starts today!
-
+            We are excited to see and help assist you. Your journey to a
+            healthier, brighter smile starts today!
           </Card.Text>
-
         </Card.ImgOverlay>
       </Card>
-      </div>
+    </div>
   );
 };
 

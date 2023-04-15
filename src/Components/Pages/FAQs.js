@@ -1,13 +1,8 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import  HeroBanner from "../Main/HeroBanner";
-import smile from "../../Images/smile.jpeg";
+import HeroBanner from "../Main/HeroBanner";
 import FAQsHero from "../SubComponents/FAQsHero";
 import FAQsInfo from "../SubComponents/FAQsInfo";
 import Footer from "../Main/Footer";
-
-
-
 
 const FAQS = () => {
   return (
@@ -16,8 +11,7 @@ const FAQS = () => {
       <HeroBanner />
       <FAQsInfo />
       <Footer />
-    
-      </div>
+    </div>
   );
 };
 

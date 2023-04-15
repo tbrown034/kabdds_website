@@ -1,15 +1,12 @@
 import { Icon } from "semantic-ui-react";
 import Container from "react-bootstrap/Container";
 
-
 const AboutQuote = () => {
   return (
     <div className="defaultPadding tertiaryColor aboutQuote center-text">
       <Container fluid>
         <h1>Our Dental Philosophy</h1>
-        
         <p>
-          {" "}
           <Icon name="quote left" />
           Working in dentistry for over 40 years, it has always been my goal to
           provide the highest level of dental care possible. By working my

@@ -1,6 +1,5 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import dentist from "../../Images/dentist.jpeg";
+
 import Footer from "../Main/Footer";
 import AppointmentHero from "../SubComponents/AppointmentHero";
 import AppointmentInfo from "../SubComponents/AppointmentInfo";
@@ -13,7 +12,7 @@ const Appointment = () => {
       <HeroBanner />
       <AppointmentInfo />
       <Footer />
-     
+    
       </div>
   );
 };

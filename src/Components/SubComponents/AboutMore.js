@@ -10,8 +10,9 @@ const AboutMore = () => {
             <h1>Outside the Office</h1>
             <p>
               When Dr. Brown is not helping his patients, he loves spending time
-              with much of time with his family, including his two children and three granchldren. In addition to landscaping, he
-              is also an avid fisherman and a faithful Bears and Cubs fan.{" "}
+              with much of time with his family, including his two children and
+              three granchldren. In addition to landscaping, he is also an avid
+              fisherman and a faithful Bears and Cubs fan.{" "}
             </p>
           </Col>
           <Col className="rightImageContainer">

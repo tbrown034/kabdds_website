@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import { Button, Icon } from "semantic-ui-react";
 import CopyAddress from "../Buttons/CopyAddress";
 

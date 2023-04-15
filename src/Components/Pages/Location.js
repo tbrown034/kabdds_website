@@ -1,13 +1,10 @@
 import React from "react";
-import  HeroBanner from "../Main/HeroBanner";
-import Hero from "../SubComponents/LocationHero"
-import Info from "../SubComponents/LocationInfo"
-import Map from "../Main/Map"
-import Footer from "../Main/Footer"
+import HeroBanner from "../Main/HeroBanner";
+import Hero from "../SubComponents/LocationHero";
+import Info from "../SubComponents/LocationInfo";
+import Map from "../Main/Map";
+import Footer from "../Main/Footer";
 import LocationButtons from "../SubComponents/LocationButtons";
-
-
-
 
 const Location = () => {
   return (
@@ -16,11 +13,9 @@ const Location = () => {
       <HeroBanner />
       <Info />
       <Map />
-      <LocationButtons/>
+      <LocationButtons />
       <Footer />
-      
-
-      </div>
+    </div>
   );
 };
 

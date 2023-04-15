@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import words from "../../Images/dentistwords.jpeg";
 
-
 const ContactHero = () => {
   return (
     <div className="myHomeHero">
@@ -16,16 +15,15 @@ const ContactHero = () => {
               <span className="curve"></span>
             </span>
           </Card.Title>
-
           <Card.Text>
-          
-          Let us know if you have any questions or need more information about our office, what services we provice, financing or insurance questions or anything on how we can make your visit go as pleasently as possible!
-
+            Let us know if you have any questions or need more information about
+            our office, what services we provice, financing or insurance
+            questions or anything on how we can make your visit go as pleasently
+            as possible!
           </Card.Text>
-
         </Card.ImgOverlay>
       </Card>
-      </div>
+    </div>
   );
 };
 

@@ -29,7 +29,7 @@ const Footer = () => {
                   <Icon name="calendar" />
                 </Button.Content>
               </Button>
-              <Button  onClick={handleClick} animated="vertical">
+              <Button onClick={handleClick} animated="vertical">
                 <Button.Content hidden>
                   <Icon name="phone" />
                 </Button.Content>

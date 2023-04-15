@@ -1,34 +1,61 @@
-
-
-
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Icon } from "semantic-ui-react";
 import CallToAction from "./CallToAction";
+import { useNavigate } from "react-router-dom";
 
 const Footer = ({ colorType }) => {
- 
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
+
   return (
-    <div className={`myFooter ${colorType === "secondary" ? "secondaryColor" : ""}`}>
-      <Container fluid >
-        <CallToAction colorType={"tertiary"}  />
+    <div
+      className={`myFooter ${
+        colorType === "secondary" ? "secondaryColor" : ""
+      }`}
+    >
+      <Container fluid>
+        <CallToAction colorType={"tertiary"} />
         <Row className="defaultPadding center-text">
-        
           <Col className="footerCols" lg={4} xs={12}>
             <h3>Dental Services</h3>
             <p>
-              <a href="/services">General Dentistry</a>
+              <button
+                className="footerLink"
+                onClick={() => handleNavigation("/services")}
+              >
+                General Dentistry
+              </button>
             </p>
             <p>
-              <a href="/services">Surgical Dentistry</a>
+              <button
+                className="footerLink"
+                onClick={() => handleNavigation("/services")}
+              >
+                Surgical Dentistry
+              </button>
             </p>
             <p>
-              <a href="/services">Cosmetic Dentistry</a>
+              <button
+                className="footerLink"
+                onClick={() => handleNavigation("/services")}
+              >
+                Cosmetic Dentistry
+              </button>
             </p>
-<p>
-            <a href="/services">FAQS</a>
-            </p></Col>
+            <p>
+              <button
+                className="footerLink"
+                onClick={() => handleNavigation("/faqs")}
+              >
+                FAQS
+              </button>
+            </p>
+          </Col>
           <Col className="footerCols" lg={4} xs={12}>
             <h3>Office Hours</h3>
             <p>
@@ -76,4 +103,3 @@ const Footer = ({ colorType }) => {
 };
 
 export default Footer;
-

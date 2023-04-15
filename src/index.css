@@ -120,7 +120,7 @@ a {
   height: 100%;
   width: 100%;
   border-left: whitesmoke 10px solid;
-  
+
 }
 
 .homeImageContainer {
@@ -154,7 +154,7 @@ button.ui.button:hover {
 }
 
 .wideButton {
-  width: 33% ;
+  width: 33%;
   padding: 20px;
 }
 
@@ -250,12 +250,7 @@ button.ui.button:hover {
 }
 
 
-
 /* ReviewSlider */
-
-
-
-
 
 /* ServiceBanner */
 
@@ -306,13 +301,6 @@ button.ui.button:hover {
 /* 
 Map  */
 
-
-
-
-
-
-
-
 /* Promotions  */
 
 .myPromotions {
@@ -340,8 +328,14 @@ Map  */
 
 }
 
-
-
+.footerLink {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 
 .threeBtnGroup {
@@ -351,7 +345,7 @@ Map  */
   justify-content: center;
 }
 
-.threeBtnGroup > .ui.button {
+.threeBtnGroup>.ui.button {
   margin-right: 10px;
 }
 
@@ -379,8 +373,6 @@ Map  */
   padding-bottom: 20px;
 }
 
-
-
 .myFellow {
   background-color: var(--secondary-bg-color);
   padding: 25px;
@@ -390,33 +382,28 @@ Map  */
   background-color: var(--secondary-bg-color);
 }
 
-
-
-
-
-
 .bottom-padding {
   padding-bottom: 15px;
 }
 
-
-
 .logoImage {
   width: 100%;
   height: auto;
-  max-height: 100px; /* adjust this value to change the size of the images */
+  max-height: 100px;
+  /* adjust this value to change the size of the images */
   object-fit: contain;
   padding: 10px;
 }
 
 .logoGroup {
   display: flex;
-  justify-content: center; /* Horizontally center images */
-  align-items: center; /* Vertically center images */
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center;
+  /* Horizontally center images */
+  align-items: center;
+  /* Vertically center images */
+  flex-wrap: wrap;
+  /* Allow wrapping on smaller screens */
 }
-
-
 
 .icon {
   transition: transform 0.3s ease-in-out;
@@ -431,10 +418,6 @@ Map  */
 .icon:hover {
   transform: scale(1.2);
 }
-
-
-
-
 
 .myStats {
   display: flex;
@@ -452,24 +435,18 @@ Map  */
   height: 100%;
 }
 
-
-
 .textBox {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   background-color: var(--secondary-bg-color);
-
 }
 
 .myLogos {
   padding: 100px 25px 100px 25px;
-
   background-color: var(--quaternary-bg-color);
 }
-
-
 
 .logo-container {
   display: flex;
@@ -495,7 +472,6 @@ Map  */
 .pull-quote {
   font-family: "Roboto", sans-serif;
   font-style: italic;
-
   font-size: 1.5em;
   line-height: 1.4;
   margin: 1.5em 0;
@@ -515,7 +491,7 @@ Map  */
 }
 
 .Financecard {
-    background-color: var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
@@ -644,46 +620,48 @@ Map  */
     min-width: 1px;
     padding: 20px 0px 0px 0px;
   }
-  
-  
+
+
   .rightImage {
-    padding: 0px;;
+    padding: 0px;
+    ;
 
   }
 
   .leftImage {
     padding: 0px;
-   
+
   }
 
   /* Footer  */
 
   .myApt h1 {
     font-size: 40px;
-  } 
+  }
 
   .myFooter p {
     font-size: 15px;
-  } 
+  }
 
   .footerCols {
     padding-bottom: 20px;
   }
-/* 
+
+  /* 
   Finance  */
 
   .careCredit {
     margin-bottom: 25px;
   }
 
-  
 
 
 
 
 
 
- 
+
+
 
   .experience {
     padding-top: 20px;
@@ -702,7 +680,7 @@ Map  */
     flex-direction: column;
   }
 
-  .threeBtnGroup > .ui.button {
+  .threeBtnGroup>.ui.button {
     margin-bottom: 10px;
   }
 
@@ -711,7 +689,7 @@ Map  */
     flex-wrap: wrap;
   }
 
-  
+
 
   .apptBtn {
     margin-bottom: 10px;
