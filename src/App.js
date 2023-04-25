@@ -1,13 +1,14 @@
-import React from 'react';
-
-import { Header,  Home } from './Components';
+import React from "react";
+import Header from "./Components/Main/Header";
+import Home from "./Components/HomePage/Home";
+import Footer from "./Components/Main/Footer";
 import About from "./Components/Pages/About";
 import Financing from "./Components/Pages/Financing";
 import Location from "./Components/Pages/Location";
 import Contact from "./Components/Pages/Contact";
 import Services from "./Components/Pages/Services";
 import FAQs from "./Components/Pages/FAQs";
-import Appointment from './Components/Pages/Appointment';
+import Appointment from "./Components/Pages/Appointment";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -21,8 +22,6 @@ const router = createBrowserRouter(
     <>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/header" element={<Header />} />
-
       <Route path="/financing" element={<Financing />} />
       <Route path="/appointment" element={<Appointment />} />
       <Route path="/location" element={<Location />} />
@@ -35,14 +34,14 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <RouterProvider router={router}>
-      <div className="App">
+    <div className="App">
+      <RouterProvider router={router}>
         <Header />
         <Routes />
-
-      </div>
-    </RouterProvider>
+        <Footer />
+      </RouterProvider>
+    </div>
   );
-}
+};
 
 export default App;

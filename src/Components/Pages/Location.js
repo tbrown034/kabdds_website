@@ -5,10 +5,13 @@ import Info from "../SubComponents/LocationInfo";
 import Map from "../Main/Map";
 import Footer from "../Main/Footer";
 import LocationButtons from "../SubComponents/LocationButtons";
+import Header from "../Main/Header"
+
 
 const Location = () => {
   return (
     <div className="myLocation">
+          <Header />
       <Hero />
       <HeroBanner />
       <Info />

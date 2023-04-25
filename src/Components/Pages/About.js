@@ -7,10 +7,12 @@ import Experience from "../SubComponents/AboutExperience";
 import DYK from "../SubComponents/AboutDYK";
 import Footer from "../Main/Footer";
 import More from "../SubComponents/AboutMore";
+import Header from "../Main/Header"
 
 const About = () => {
   return (
     <div className="myAbout">
+      <Header />
       <Hero />
       <HeroBanner colorType={"primary"} />
       <Experience />

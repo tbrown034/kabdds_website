@@ -4,11 +4,14 @@ import  ReviewPackage from "./ReviewPackage"
 import  ServiceBanner from "./ServicesBanner"
 import  HeroBanner from "../Main/HeroBanner";
 import Footer from "../Main/Footer"
+import Header from "../Main/Header"
+
 
 
 const Home = () => {
     return (
         <div className="myHome">
+            <Header />
             <HomeHero />
             <HeroBanner colorType={"primary"} />
             <ReviewPackage />

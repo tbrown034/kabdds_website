@@ -6,7 +6,6 @@
   --secondary-color: #5b8a9f;
   --tertiary-color: #cdd8de;
   --quaternary-color: #cdd6e1;
-
   --primary-bg-color: #f8fcfd;
   --secondary-bg-color: #dfe7ec;
   --tertiary-bg-color: #f5f8f9;
@@ -59,8 +58,10 @@ a {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
 
-
+.leftImage {
+  padding: 0px;
 
 }
 
@@ -76,21 +77,7 @@ a {
   padding-bottom: 10px;
 }
 
-.secondaryColor {
-  background-color: var(--secondary-bg-color) !important;
-}
 
-.primaryColor {
-  background-color: var(--primary-bg-color) !important;
-}
-
-.tertiaryColor {
-  background-color: var(--tertiary-bg-color) !important;
-}
-
-.quadColor {
-  background-color: var(--quaternary-bg-color) !important;
-}
 
 
 .textContainer {
@@ -628,10 +615,7 @@ Map  */
 
   }
 
-  .leftImage {
-    padding: 0px;
 
-  }
 
   /* Footer  */
 

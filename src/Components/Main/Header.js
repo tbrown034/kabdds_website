@@ -24,7 +24,7 @@ const Header = () => {
           <Navbar.Brand onClick={() => handleNavigation("/")}>
             Keith Brown, D.D.S.
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" aria-label="Toggle navigation"/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto myNavLinks">
               <Nav.Link onClick={() => handleNavigation("/about")}>
